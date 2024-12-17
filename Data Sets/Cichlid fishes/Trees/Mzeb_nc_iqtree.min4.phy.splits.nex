@@ -1,0 +1,229 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=91;
+TAXLABELS
+[1] 'Oaureus1'
+[2] 'Oaureus2'
+[3] 'Mzebra1'
+[4] 'Mzebra2'
+[5] 'Sgalilaeus__LakeAlbert__U1B1'
+[6] 'Sgalilaeus__LakeAlbert__U2B2'
+[7] 'Okorogwe__Nambawala__T3J4'
+[8] 'Okorogwe__Nambawala__T3J6'
+[9] 'Okorogwe__MlinganoDam__P4B2'
+[10] 'Okorogwe__MlinganoDam__P4B1'
+[11] 'Ojipe__NyumbayaMunga__P2G3'
+[12] 'Ojipe__NyumbayaMunga__P2G6'
+[13] 'Ohunteri__LakeChala__G1-K2G2'
+[14] 'Ohunteri__LakeChala__G2-K2G3'
+[15] 'Ogirigan__LakeJipe__P3C5'
+[16] 'Ogirigan__LakeKumba__P1E1'
+[17] 'Oamphimelas__LakeManyara__P3H1'
+[18] 'Oamphimelas__LakeManyara__P3H2'
+[19] 'Oamphimelas__LakeSulungali__T9F4'
+[20] 'Oamphimelas__LakeSulungali__T9F2'
+[21] 'Agrahami__LakeMagadi__Ag2630'
+[22] 'Agrahami__LakeMagadi__Ag2638'
+[23] 'Omossambicus__Mozambique__C13'
+[24] 'Omossambicus__SouthAfrica__RB09-059'
+[25] 'Oesculentus__Malimbe__V71'
+[26] 'Oesculentus__Malimbe__MG340'
+[27] 'Oesculentus__LakeRukwa__T10E03'
+[28] 'Oesculentus__LakeRukwa__T10F04'
+[29] 'Okarongae__MbambaBay__OR1A3'
+[30] 'Osquamipinnis__LakeMalawi__D14-J04'
+[31] 'Osquamipinnis__LakeMalawi__D14-J06'
+[32] 'Goldenchambo__LakeIkapu__G7B1'
+[33] 'Goldenchambo__LakeIkapu__G7B3'
+[34] 'Osquamipinnis__LakeIlamba__120B'
+[35] 'Osquamipinnis__LakeMassoko__221A'
+[36] 'Osquamipinnis__LakeKingiri__94A'
+[37] 'Osquamipinnis__LakeKingiri__94B'
+[38] 'Ochungruruensis__LakeKiungululu__3D9'
+[39] 'Ochungruruensis__LakeKiungululu__300'
+[40] 'Orukwaensis__LakeRukwa__24-2012'
+[41] 'Orukwaensis__LakeRukwa__T10D02'
+[42] 'Omacrochir__Zambia__CFH11-078'
+[43] 'Omacrochir__Angola__RB12-A050'
+[44] 'Omalagarasi__Uvinza__131'
+[45] 'Omalagarasi__Uvinza__130'
+[46] 'Ovariabilis__MakobeIsland__395'
+[47] 'Ovariabilis__MakobeIsland__396'
+[48] 'Omtera__MteraDam__T9I4'
+[49] 'Omtera__MteraReservoir__14_1G1'
+[50] 'Okaromo__LakeNyamagoma__207'
+[51] 'Okaromo__LakeNyamagoma__206'
+[52] 'Otanganicae__Katanga__41'
+[53] 'Otanganicae__Katanga__42'
+[54] 'Oleucostictus__LakeAlbert__U3L3'
+[55] 'Oleucostictus__LakeAlbert__U7L7'
+[56] 'Oleucostictus__Malimbe__V56'
+[57] 'Oleucostictus__Malimbe__V46'
+[58] 'Ospilurus1'
+[59] 'Ourolepis__ZanzibarSite4__Z1D7'
+[60] 'Ourolepis__ZanzibarSite3__Z1B9'
+[61] 'Ourolepis__LakeLugongwe__T3D1'
+[62] 'Ourolepis__LakeLugongwe__T2J5'
+[63] 'Ourolepis__Ifakara__T9J7'
+[64] 'Ourolepis__Ifakara__T9J4'
+[65] 'Ourolepis__Kilombero__F3'
+[66] 'Ourolepis__Kilombero__F4'
+[67] 'Ourolepis__Mbuyunipool__T6A8'
+[68] 'Ourolepis__WamiRiver__14_1E1'
+[69] 'Oshiranus__Salima__409A'
+[70] 'Oshiranus__Salima__411B'
+[71] 'Oshiranus__LakeIlamba__142A'
+[72] 'Oshiranus__LakeIlamba__152'
+[73] 'Oshiranus__Lituhu__T8H6'
+[74] 'Oshiranus__Lituhu__T8H7'
+[75] 'Oshiranus__LakeKingiri__373'
+[76] 'Oshiranus__LakeKingiri__97A'
+[77] 'Oshiranus__Metangula__RB10-A251'
+[78] 'Oshiranuschilwae__MalawiBUaquarium__OR1A2'
+[79] 'Oplacidus__NamiungoRiver__122A'
+[80] 'Oplacidus__NamiungoRiver__123B'
+[81] 'Oplacidus__Nambuti__73C'
+[82] 'Oplacidus__Nambuti__73D'
+[83] 'Orovumae__LakeChidya__141A'
+[84] 'Orovumae__LakeChidya__141D'
+[85] 'Orovumae__Rovuma__83-2013'
+[86] 'Oniloticus__Malimbe__V79'
+[87] 'Oniloticus__Malimbe__V77'
+[88] 'Oniloticus__LakeAlbert__U3A3'
+[89] 'Oniloticus__LakeAlbert__U1A1'
+[90] 'Oplacidus__Mozambique__AC13-A158'
+[91] 'Oplacidus__Mozambique__AC13-A128'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=91 nsplits=123;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	1	 70 73 75 76,
+	6	 71 72 73 75 76 77,
+	6	 71 72 75 76,
+	1000	 3 4,
+	2	 69 73,
+	4	 86 87,
+	1000	 5 6,
+	1000	 3 4 5 6,
+	2	 83 84,
+	5	 73 75 76,
+	1000	 7 8,
+	4	 69 71 72 75 76,
+	7	 69 70 75 76,
+	982	 9 10,
+	1000	 7 8 9 10,
+	3	 69 70 73 77,
+	5	 70 73,
+	1000	 38 39,
+	4	 69 77,
+	18	 7 8 10,
+	1000	 71 72,
+	315	 38 39 71 72,
+	2	 69 71 72 73 74 75 76 77,
+	10	 11 12 15 16,
+	23	 69 73 75 76,
+	1000	 75 76,
+	883	 69 75 76,
+	81	 69 70,
+	10	 69 70 73 74 75 76 77,
+	22	 65 66,
+	931	 73 77,
+	317	 70 73 77,
+	438	 69 70 73 75 76 77,
+	311	 38 39 69 70 71 72 73 75 76 77,
+	100	 73 75 76 77,
+	315	 38 39 69 70 71 72 73 74 75 76 77,
+	25	 69 71 72,
+	11	 79 80 81 82 84 85,
+	253	 38 39 69 70 71 72 73 74 75 76 77 78 90 91,
+	1000	 79 80,
+	259	 38 39 69 70 71 72 73 74 75 76 77 90 91,
+	337	 62 63 64 65 66,
+	1000	 81 82,
+	1000	 79 80 81 82,
+	146	 71 72 73 77,
+	64	 71 72 77,
+	219	 29 30,
+	998	 84 85,
+	989	 83 84 85,
+	1000	 79 80 81 82 83 84 85,
+	747	 78 79 80 81 82 83 84 85,
+	56	 38 39 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85,
+	685	 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 90 91,
+	685	 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85,
+	1000	 90 91,
+	1000	 38 39 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 90 91,
+	685	 69 70 71 72 73 74 75 76 77,
+	677	 69 70 71 72 73 75 76 77,
+	1000	 59 60,
+	556	 69 71 72 73 75 76 77,
+	1000	 59 60 61,
+	393	 69 73 75 76 77,
+	663	 59 60 61 62,
+	685	 7 8 9 10 59 60 61 62 63 64 65 66 67 68,
+	1000	 1 2,
+	1000	 63 64,
+	1000	 58 86 87 88 89,
+	978	 63 64 65,
+	1000	 86 87 88 89,
+	1000	 63 64 65 66,
+	1000	 59 60 61 62 63 64 65 66,
+	996	 86 88 89,
+	1000	 88 89,
+	1000	 67 68,
+	1000	 59 60 61 62 63 64 65 66 67 68,
+	315	 38 39 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 90 91,
+	1000	 7 8 9 10 38 39 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 90 91,
+	1000	 1 2 58 86 87 88 89,
+	1000	 1 2 3 4 5 6 58 86 87 88 89,
+	1000	 23 24,
+	1000	 7 8 9 10 23 24 38 39 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 90 91,
+	1000	 54 55 56 57,
+	1000	 56 57,
+	1000	 11 12,
+	1000	 54 55,
+	990	 11 12 14,
+	1000	 1 2 3 4 5 6 54 55 56 57 58 86 87 88 89,
+	1000	 17 18 19 20 21 22 25 26 27 28,
+	1000	 15 16,
+	1000	 11 12 14 15 16,
+	1000	 25 26 27 28,
+	1000	 11 12 13 14 15 16,
+	1000	 7 8 9 10 11 12 13 14 15 16 23 24 38 39 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 90 91,
+	1000	 26 27 28,
+	1000	 27 28,
+	1000	 17 18 19 20 21 22,
+	781	 30 31,
+	1000	 29 30 31,
+	1000	 21 22,
+	1000	 17 18 19 20,
+	1000	 32 33,
+	1000	 19 20,
+	1000	 17 18,
+	1000	 1 2 3 4 5 6 17 18 19 20 21 22 25 26 27 28 54 55 56 57 58 86 87 88 89,
+	1000	 36 37,
+	1000	 34 36 37,
+	1000	 32 33 34 36 37,
+	1000	 29 30 31 32 33 34 36 37,
+	1000	 29 30 31 32 33 34 35 36 37 40 41 42 43 44 45 46 47 48 49 50 51 52 53,
+	1000	 29 30 31 32 33 34 35 36 37,
+	1000	 52 53,
+	1000	 29 30 31 32 33 34 35 36 37 40 41 42 43 44 45 46 47 48 49 50 51,
+	1000	 42 43,
+	1000	 29 30 31 32 33 34 35 36 37 42 43,
+	1000	 40 41 44 45 46 47 48 49 50 51,
+	1000	 50 51,
+	1000	 40 41,
+	1000	 40 41 44 45 46 47 48 49,
+	1000	 48 49,
+	1000	 44 45,
+	1000	 40 41 44 45,
+	1000	 40 41 44 45 46 47,
+	1000	 46 47,
+;
+END; [Splits]
+

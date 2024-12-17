@@ -1,0 +1,4 @@
+Tree Pair,Robinson-Foulds Distance,Weighted RF Distance,Conflicting Splits
+ASTRAL-Pro3 vs TreeQMC,36,N/A,36
+ASTRAL-Pro3 vs Weighted_ASTRAL,30,N/A,30
+TreeQMC vs Weighted_ASTRAL,26,N/A,26

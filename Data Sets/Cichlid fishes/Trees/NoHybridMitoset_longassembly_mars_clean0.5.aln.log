@@ -1,0 +1,2114 @@
+IQ-TREE multicore version 2.0-rc1 for Linux 64-bit built Nov 21 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    t128n23 (SSE3, 125 GB RAM)
+Command: /ei//software/testing/iqtree/2.0-rc1/x86_64/bin/iqtree -s NoHybridMitoset_longassembly_mars_clean0.5.aln -m MFP -bb 1000 --runs 10 -nt 16
+Seed:    358173 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar 15 15:45:04 2021
+Kernel:  SSE2 - 16 threads (16 CPU cores detected)
+
+Reading alignment file NoHybridMitoset_longassembly_mars_clean0.5.aln ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 437 sequences with 16622 columns, 3942 distinct patterns
+3649 parsimony-informative, 566 singleton sites, 12407 constant sites
+                                              Gap/Ambiguity  Composition  p-value
+   1  Omossambicus__SouthAfrica__RB09_059             0.02%    passed     84.98%
+   2  _R_Oniloticus__KiteleLake__171A                 0.31%    passed     99.20%
+   3  Ourolepis__ZanzibarSite3__Z1B9                  0.02%    passed     99.19%
+   4  Orukwaensis__LakeRukwa__25A                     0.02%    passed     99.98%
+   5  Orukwaensis__MteraDam__T9I4                     0.02%    passed     99.68%
+   6  _R_Oleucostictus__Malimbe__V46                  0.08%    passed     93.40%
+   7  _R_Oniloticus__LakeAlbert__U1A1                 0.31%    passed     99.22%
+   8  Oniloticus__HomboloDam__T9A3                    0.31%    passed     98.85%
+   9  Oniloticus__HomboloDam__T9A2                    0.31%    passed     99.77%
+  10  Oniloticus__KilosaSite2__T6E10                  0.31%    passed     99.22%
+  11  _R_Oleucostictus__Songea__T8E10                 0.08%    passed     93.24%
+  12  _R_Oleucostictus__Malimbe__V54                  0.08%    passed     93.24%
+  13  _R_Ourolepis__Mbuyunipool__T6A4                 0.02%    passed     99.49%
+  14  _R_Oshiranus__LakeIlamba__152                   0.02%    passed     98.48%
+  15  Oniloticus__Mbarali__141                        0.31%    passed     99.40%
+  16  _R_Oniloticus__LakeJipe__P3F4                   0.27%    passed     97.00%
+  17  _R_Goldenchambo__LakeIkapu__333B                0.02%    passed     97.83%
+  18  _R_Oplacidus__Nambuti__73C                      0.02%    passed     98.63%
+  19  Oniloticus__LakeSulungali__T9H4                 0.53%    passed     98.83%
+  20  _R_Ourolepis__LakeLugongwe__T3D1                0.02%    passed     99.08%
+  21  _R_Orukwaensis__MteraDam__T9I2                  0.02%    passed     99.96%
+  22  _R_Agrahami__LakeMagadi__Ag2634                 0.01%    passed     97.99%
+  23  Osquamipinnis__LakeIlamba__120B                 0.02%    passed     98.60%
+  24  Okarongae__LakeItamba__274                      0.02%    passed     97.76%
+  25  Oniloticus__LakeJipe__P3G1                      0.28%    passed     98.70%
+  26  Ourolepis__Mbuyunipool__T6A3                    0.01%    passed     99.60%
+  27  Orukwaensis__MteraDam__1G4                      0.02%    passed     99.84%
+  28  Ourolepis__Mbuyunipool__T6A2                    0.02%    passed     97.21%
+  29  _R_Ourolepis__ZanzibarSite6__Z1E5               0.02%    passed     99.34%
+  30  _R_Ourolepis__WamiRiver__14_1D9                 0.02%    passed     99.49%
+  31  Oniloticus__KiteleLake__170B                    0.31%    passed     99.76%
+  32  Oniloticus__KiteleLake__171D                    0.31%    passed     99.12%
+  33  Oniloticus__LakeVictoriaMalimbe__V77           28.54%    passed      5.71%
+  34  _R_Ourolepis__Mbarali__134                      0.02%    passed     97.87%
+  35  _R_Oplacidus__NamiungoRiver__122A               0.02%    passed     98.38%
+  36  _R_Oniloticus__KiteleLake__170D                 0.04%    passed     99.10%
+  37  _R_Omossambicus__M3                             0.03%    passed     99.13%
+  38  Oesculentus__HomboloDam__T9C10                  0.15%    passed     91.96%
+  39  _R_Ourolepis__MinduReservoir__T2C10             0.02%    passed     99.14%
+  40  _R_Ogirigan__LakeKumba__P1E1                    0.02%    passed     96.63%
+  41  Oniloticus__LakeJipe__F4_K2D10                  0.31%    passed     98.85%
+  42  _R_Oniloticus__KiteleLake__172B                 0.31%    passed     99.20%
+  43  _R_Sgalilaeus__LakeAlbert__U2B2                 0.17%    passed     15.81%
+  44  _R_Agrahami__LakeMagadi__Ag2647                 0.01%    passed     97.45%
+  45  _R_Ourolepis__ZanzibarSite8__Z1F2               0.02%    passed     99.25%
+  46  _R_Oleucostictus__KilosaSite3__T6H10            0.08%    passed     93.24%
+  47  Oesculentus__HomboloDam__2B2_A                  0.15%    passed     89.27%
+  48  Oniloticus__HomboloDam__2B5_A                   0.31%    passed     99.76%
+  49  Oniloticus__KilosaSite2__T6D8                   0.31%    passed     99.22%
+  50  _R_Ourolepis__ZanzibarSite2__Z1A9               0.02%    passed     99.24%
+  51  Oniloticus__LakeSulungali__T9F5                 0.31%    passed     98.85%
+  52  _R_Ourolepis__Ifakara__T9J2                     0.02%    passed     96.99%
+  53  Oesculentus__LakeRukwa__T10C04                  0.15%    passed     90.04%
+  54  _R_Ourolepis__ZanzibarSite6__Z1E4               0.02%    passed     99.25%
+  55  Orukwaensis__LakeRukwa__T10D07                  0.02%    passed     99.99%
+  56  Oleucostictus__LakeVictoriaMalimbe__V49         0.08%    passed     93.24%
+  57  Oniloticus__LakeSulungali__T9F6                 0.44%    passed     99.05%
+  58  _R_Otanganicae__Katanga__42                     0.01%    passed     94.10%
+  59  Orukwaensis__MteraDam__T9H8                     0.02%    passed     99.88%
+  60  _R_Oniloticus__LakeJipe__P3F5                   0.02%    passed     98.76%
+  61  _R_Ourolepis__Mbuyunipool__T6B5                 0.02%    passed     99.06%
+  62  _R_Agrahami__LakeMagadi__Ag2645                 0.01%    passed     98.41%
+  63  _R_Oaureus1                                     0.16%    passed     11.25%
+  64  Ourolepis__ZanzibarSite2__Z1A10                 0.78%    passed     99.76%
+  65  _R_Okorogwe__Nambawala__T3J6                    0.02%    passed     99.39%
+  66  Agrahami__LakeMagadi__Ag2636                    0.01%    passed     98.82%
+  67  _R_Oniloticus__LakeVictoriaMalimbe__MG291       0.08%    passed     98.64%
+  68  _R_Oleucostictus__KilosaSite3__T6I6             0.08%    passed     92.99%
+  69  Oniloticus__LakeSulungali__T9E3                 0.31%    passed     99.42%
+  70  Oleucostictus__KilosaSite3__T6I4                0.08%    passed     93.24%
+  71  Oniloticus__KilosaSite2__T6F3                   0.31%    passed     99.76%
+  72  Oniloticus__KiteleLake__172A                    0.31%    passed     99.20%
+  73  _R_Goldenchambo__LakeIkapu__333A                0.02%    passed     97.46%
+  74  Oniloticus__LakeAlbert__U9A9                    0.31%    passed     99.13%
+  75  Oniloticus__HomboloDam__T9B8                    0.31%    passed     99.09%
+  76  _R_Ourolepis__Ifakara__T9J8                     0.20%    passed     97.94%
+  77  Oniloticus__HomboloDam__T9B6                    0.31%    passed     99.09%
+  78  Oleucostictus__LakeAlbert__U6L6                 0.08%    passed     93.56%
+  79  _R_Oleucostictus__LakeVictoriaMalimbe__V63      0.08%    passed     92.99%
+  80  _R_Ourolepis__KidatuRiver__T7G1                 0.02%    passed     98.62%
+  81  _R_Ogirigan__LakeKumba__P1E2                    0.02%    passed     96.24%
+  82  Oleucostictus__LakeVictoriaMalimbe__V62         0.08%    passed     93.24%
+  83  _R_Oniloticus__LakeVictoriaMalimbe__V69         0.31%    passed     98.17%
+  84  _R_Ourolepis__ZanzibarSite5__Z1D10              0.02%    passed     99.19%
+  85  _R_Oesculentus__Malimbe__V72                    0.15%    passed     91.16%
+  86  Oshiranus__Salima__409A                         0.02%    passed     95.61%
+  87  _R_Oesculentus__HomboloDam__2A9_A               0.15%    passed     91.77%
+  88  Oshiranus__Lituhu__T8H6                         0.02%    passed     97.14%
+  89  _R_Oleucostictus__LakeVictoriaMalimbe__V48      0.08%    passed     93.40%
+  90  Oniloticus__HomboloDam__T9B7                    0.30%    passed     99.77%
+  91  Oleucostictus__LakeVictoriaMalimbe__V64        10.94%    passed     51.77%
+  92  _R_Ogirigan__LakeJipe__E10_K2C9                26.15%    passed      8.94%
+  93  Oshiranus__Salima__408C                         0.02%    passed     98.58%
+  94  _R_Goldenchambo__LakeIkapu__G7B4                0.02%    passed     98.21%
+  95  _R_Oshiranus__Lituhu__T8H7                      0.02%    passed     98.00%
+  96  Oniloticus__HomboloDam__T9C4                    0.30%    passed     99.77%
+  97  _R_Oesculentus__Malimbe__V71                    0.15%    passed     91.35%
+  98  Oniloticus__HomboloDam__T9A6                    0.46%    passed     99.00%
+  99  _R_Ourolepis__ZanzibarSite8__Z1E10              0.02%    passed     99.19%
+ 100  Oniloticus__KilosaSite2__T6E2                   0.30%    passed     99.84%
+ 101  Oplacidus__NamiungoRiver__122B                  0.02%    passed     98.54%
+ 102  Orukwaensis__MteraDam__T9H10                    0.20%    passed     99.91%
+ 103  _R_Oshiranus__Salima__408B                      0.02%    passed     98.38%
+ 104  _R_Oniloticus__LakeVictoriaMalimbe__MG294       0.08%    passed     98.56%
+ 105  _R_Ourolepis__LakeMansi__T3D7                   0.02%    passed     99.19%
+ 106  _R_Oleucostictus__Songea__T8E5                  0.08%    passed     93.40%
+ 107  Oniloticus__ZanzibarSite1__Z1A1                 0.31%    passed     99.37%
+ 108  _R_Oniloticus__HomboloDam__T9C3                 0.31%    passed     99.12%
+ 109  _R_Ourolepis__ZanzibarSite3__Z1C3               0.02%    passed     99.24%
+ 110  Oniloticus__KilosaSite3__T6J6                   0.31%    passed     99.09%
+ 111  Oesculentus__LakeRukwa__T10E01                  0.76%    passed     93.03%
+ 112  Oleucostictus__LakeAlbert__U5L5                 0.08%    passed     93.24%
+ 113  Oesculentus__LakeRukwa__20_2012                 0.15%    passed     90.36%
+ 114  _R_Ourolepis__ZanzibarSite3__Z1B8               0.02%    passed     99.25%
+ 115  _R_Omossambicus__Mozambique__C13                0.02%    passed     90.63%
+ 116  Oniloticus__LakeSulungali__T9E1                 0.31%    passed     98.85%
+ 117  Agrahami__LakeMagadi__Ag2637                    0.01%    passed     98.84%
+ 118  Oesculentus__LakeKalimau__ESC7B                 0.15%    passed     90.04%
+ 119  Oniloticus__LakeVictoriaMalimbe__MG293          0.31%    passed     98.05%
+ 120  Oamphimelas__LakeSulungali__T9F10               0.23%    passed     27.67%
+ 121  _R_Omossambicus__M5                             0.03%    passed     99.13%
+ 122  Oniloticus__HomboloDam__T9B2                    0.31%    passed     98.85%
+ 123  Oleucostictus__Songea__T8E6                     0.08%    passed     93.64%
+ 124  _R_Agrahami__LakeMagadi__Ag2642                 0.01%    passed     97.58%
+ 125  _R_Oshiranus__LakeIlamba__142A                  0.02%    passed     97.85%
+ 126  Oniloticus__HomboloDam__2B4_A                   0.31%    passed     99.76%
+ 127  Oniloticus__LakeAlbert__U10A10                  0.31%    passed     99.22%
+ 128  Ourolepis__Mbarali__142                         0.31%    passed     98.97%
+ 129  Oniloticus__KilosaSite2__T6D6                   0.31%    passed     99.20%
+ 130  _R_Oamphimelas__LakeSulungali__T9F2             0.16%    passed     32.57%
+ 131  _R_Agrahami__LakeMagadi__Ag2628                 0.01%    passed     99.35%
+ 132  Oamphimelas__LakeSulungali__T9F4                0.07%    passed     32.58%
+ 133  _R_Omossambicus__M1                             0.03%    passed     99.13%
+ 134  Oleucostictus__LakeAlbert__U2L2                 0.08%    passed     94.28%
+ 135  _R_Oleucostictus__LakeVictoriaMalimbe__V47      0.08%    passed     92.99%
+ 136  Oleucostictus__LakeVictoriaMrosso__16_426       0.08%    passed     93.27%
+ 137  Oniloticus__Songea__T8C9                        0.31%    passed     99.80%
+ 138  _R_Agrahami__LakeMagadi__Ag2639                 0.01%    passed     98.33%
+ 139  _R_Oshiranus__Lituhu__T8H8                      0.02%    passed     97.11%
+ 140  Oesculentus__LakeRukwa__T10C03                  0.14%    passed     89.67%
+ 141  Oplacidus__Mozambique__AC13_A128                0.02%    passed     91.79%
+ 142  Okarongae__Lituhi__T8F9                         0.02%    passed     97.70%
+ 143  _R_Agrahami__LakeMagadi__Ag2632                 0.01%    passed     97.76%
+ 144  Ourolepis__KidatuRiver__T9I10                   0.02%    passed     98.21%
+ 145  _R_Ourolepis__KidatuRiver__T9I7                 0.02%    passed     98.20%
+ 146  _R_Ourolepis__Mbarali__133                      0.02%    passed     97.87%
+ 147  Ochungruruensis__MalawiBUaquarium__OR1A1        0.02%    passed     94.83%
+ 148  Oniloticus__HomboloDam__T9A10                   0.31%    passed     99.80%
+ 149  Orukwaensis__MteraReservoir__14_1G2             0.02%    passed     99.94%
+ 150  _R_Orukwaensis__LakeRukwa__25C                  0.02%    passed     99.93%
+ 151  _R_Oniloticus__LakeJipe__F7_K2E3                0.31%    passed     98.85%
+ 152  Oplacidus__NamiungoRiver__123A                  0.02%    passed     98.38%
+ 153  _R_Oesculentus__LakeVictoriaMalimbe__MG339     38.17%    failed      0.12%
+ 154  _R_Oniloticus__LakeJipe__F5_K2E1                0.31%    passed     99.10%
+ 155  Oniloticus__KiteleLake__173A                    0.31%    passed     99.14%
+ 156  Orukwaensis__MteraDam__T9I1                     0.63%    passed     99.60%
+ 157  _R_Ourolepis__ZanzibarSite4__Z1D7               0.02%    passed     99.34%
+ 158  _R_Ourolepis__WamiRiver__14_1E1                 0.02%    passed     99.49%
+ 159  _R_Okorogwe__Nambawala__T3J4                    0.04%    passed     99.30%
+ 160  _R_Oniloticus__HomboloDam__2B3_A                0.31%    passed     99.09%
+ 161  Oamphimelas__LakeSulungali__T9F3                0.07%    passed     32.36%
+ 162  Oesculentus__LakeRukwa__T10F03                  0.22%    passed     90.84%
+ 163  Oamphimelas__LakeManyara__P3H1                  0.07%    passed     40.24%
+ 164  Oniloticus__Songea__T8C8                        0.31%    passed     99.36%
+ 165  Oplacidus__Nambuti__73A                         0.31%    passed     99.76%
+ 166  _R_Ourolepis__Kilombero__F4                     0.02%    passed     97.50%
+ 167  _R_Ourolepis__LowerWamiMbuyuni__T6A7            0.39%    passed     98.78%
+ 168  _R_Oesculentus__HomboloDam__2B1_A               0.15%    passed     92.38%
+ 169  _R_Ourolepis__KilosaSite3__T6G4                 0.02%    passed     99.06%
+ 170  _R_Oniloticus__LakeManyara__T1C8                0.31%    passed     98.97%
+ 171  Ovariabilis__MakobeIsland__395                  0.02%    passed     99.72%
+ 172  _R_Oleucostictus__KilosaSite3__T7C3             0.08%    passed     93.24%
+ 173  _R_Oleucostictus__LakeVictoriaMrosso__16_425    0.08%    passed     93.59%
+ 174  _R_Ourolepis__ZanzibarSite3__Z1C4               0.02%    passed     99.24%
+ 175  Oniloticus__KilosaSite2__T6D7                   0.31%    passed     99.20%
+ 176  _R_Ohunteri__LakeChala__G1_K2G2                31.40%    failed      1.81%
+ 177  _R_Orukwaensis__MteraDam__1G5                   0.02%    passed     99.83%
+ 178  _R_Oniloticus__LakeJipe__F9_K2E5                0.31%    passed     99.39%
+ 179  _R_Oleucostictus__Songea__T8F1                  0.54%    passed     91.17%
+ 180  Orukwaensis__MteraDam__T9H7                     0.02%    passed     99.88%
+ 181  Oshiranus__Metangula__RB10_A251                 0.02%    passed     98.48%
+ 182  Ourolepis__KidatuRiver__T9I9                    0.98%    passed     99.94%
+ 183  Oleucostictus__KilosaSite3__T6I2                0.02%    passed     96.72%
+ 184  Oniloticus__HomboloDam__T9A1                    0.31%    passed     99.09%
+ 185  Oesculentus__HomboloDam__T9C8                   2.04%    passed     87.87%
+ 186  Oleucostictus__LakeAlbert__U7L7                 0.08%    passed     93.59%
+ 187  Oniloticus__LakeVictoriaMalimbe__V70            0.31%    passed     98.05%
+ 188  Oesculentus__LakeRukwa__T10F07                  0.15%    passed     90.36%
+ 189  _R_Agrahami__LakeMagadi__Ag2627                 0.01%    passed     96.17%
+ 190  _R_Oniloticus__LakeVictoriaMakobe__16_435       0.08%    passed     98.55%
+ 191  Ogirigan__LakeJipe__P3D2                        0.03%    passed     99.17%
+ 192  Oesculentus__LakeRukwa__T10C07                  0.14%    passed     90.68%
+ 193  _R_Oleucostictus__Malimbe__V56                  0.08%    passed     93.40%
+ 194  Oniloticus__LakeVictoriaMalimbe__V79            0.58%    passed     99.71%
+ 195  _R_Oleucostictus__KilosaSite3__T7A9             0.08%    passed     93.24%
+ 196  _R_Oniloticus__KiteleLake__171E                 0.31%    passed     99.20%
+ 197  Ourolepis__Ifakara__T9J7                        0.02%    passed     98.25%
+ 198  Oniloticus__KilosaSite2__T6F8                   0.31%    passed     99.80%
+ 199  Oshiranus__LakeItamba__275D                     0.02%    passed     98.24%
+ 200  _R_Oleucostictus__LakeVictoriaMalimbe__V50      0.57%    passed     89.30%
+ 201  Okarongae__MalawiBUaquarium__OR1A3              0.02%    passed     97.47%
+ 202  _R_Oleucostictus__LakeVictoriaMalimbe__V60      0.08%    passed     93.40%
+ 203  _R_Omalagarasi__Uvinza__130                     0.02%    passed     99.95%
+ 204  _R_Ourolepis__LakeMansi__T2I10                  0.02%    passed     97.51%
+ 205  _R_Oesculentus__LakeRukwa__T10F04               1.09%    passed     90.14%
+ 206  _R_Oniloticus__LakeJipe__P3F3                   0.22%    passed     98.14%
+ 207  Okaromo__LakeNyamagoma__207                     0.02%    passed     99.90%
+ 208  _R_Oesculentus__HomboloDam__2A10_A              0.15%    passed     89.49%
+ 209  Ourolepis__Ifakara__T9J10                       0.02%    passed     97.50%
+ 210  Oniloticus__LakeJipe__P3G8                      0.02%    passed     99.32%
+ 211  Ogirigan__LakeJipe__P3C8                        0.03%    passed     99.37%
+ 212  _R_Orukwaensis__MteraDam__1G7                   0.02%    passed     99.94%
+ 213  Ourolepis__KilosaSite3__T6G10                   0.02%    passed     96.72%
+ 214  _R_Ohunteri__LakeChala__G2_K2G3                 0.11%    passed     99.48%
+ 215  Oniloticus__HomboloDam__T9A5                    0.31%    passed     99.71%
+ 216  Okorogwe__MlinganoDam__P4A10                    0.03%    passed     99.10%
+ 217  Orukwaensis__MteraReservoir__14_1G1             0.02%    passed     99.84%
+ 218  Oniloticus__KilosaSite2__T6E9                   1.51%    passed     98.14%
+ 219  _R_Oniloticus__LakeJipe__F10_K2E6               0.31%    passed     99.22%
+ 220  Ourolepis__Ifakara__T9J1                        0.02%    passed     97.99%
+ 221  _R_Oniloticus__KiteleLake__171C                 0.31%    passed     99.09%
+ 222  _R_Osquamipinnis__LakeMassoko__221A             0.02%    passed     96.43%
+ 223  Orukwaensis__LakeRukwa__T10D05                  0.01%    passed    100.00%
+ 224  _R_Agrahami__LakeMagadi__Ag2631                 0.01%    passed     97.75%
+ 225  Ojipe__LakeKalimau__P2F9                        0.04%    passed     97.58%
+ 226  Ourolepis__KidatuRiver__T9I6                    0.01%    passed     97.77%
+ 227  Orukwaensis__MteraDam__1G3                      0.02%    passed     99.87%
+ 228  _R_Oniloticus__HomboloDam__T9B4                 0.30%    passed     99.77%
+ 229  Oniloticus__KiteleLake__173C                    0.31%    passed     99.76%
+ 230  _R_Ourolepis__ZanzibarSite5__Z1D8               0.02%    passed     99.25%
+ 231  Oniloticus__KilosaSite2__T6D10                  0.31%    passed     99.76%
+ 232  Oniloticus__KilosaSite2__T6F2                   0.31%    passed     99.71%
+ 233  _R_Oleucostictus__Malimbe__V51                  0.08%    passed     92.99%
+ 234  Oniloticus__Mbarali__140                        0.31%    passed     99.76%
+ 235  Ogirigan__LakeJipe__E3_K2F1                     0.03%    passed     99.37%
+ 236  _R_Ogirigan__LakeJipe__P3C7                     0.04%    passed     99.49%
+ 237  _R_Oniloticus__LakeVictoriaMalimbe__MG295       0.08%    passed     98.56%
+ 238  Oniloticus__MinduReservoir__T1H2                0.31%    passed     98.75%
+ 239  Oplacidus__LakeChidya__141A                     0.02%    passed     98.11%
+ 240  Oniloticus__KiteleLake__172E                    0.31%    passed     99.14%
+ 241  _R_Ogirigan__LakeJipe__P3D6                     0.04%    passed     99.40%
+ 242  Oniloticus__LakeSulungali__T9E5                 0.31%    passed     98.97%
+ 243  _R_Orukwaensis__MteraDam__1G8                   0.02%    passed     99.94%
+ 244  _R_Oplacidusrovumae__Rovuma__83_2013            0.02%    passed     99.24%
+ 245  _R_Sgalilaeus__LakeAlbert__U1B1                 0.17%    passed     17.92%
+ 246  _R_Oplacidus__KiteleLake__170A                  0.02%    passed     98.39%
+ 247  _R_Omossambicus__M2                             0.03%    passed     99.13%
+ 248  _R_Ourolepis__Ifakara__T9J4                     0.02%    passed     98.15%
+ 249  _R_Ourolepis__Ifakara__T9J6                     0.01%    passed     97.81%
+ 250  Orukwaensis__MteraDam__T9H9                     0.02%    passed     99.96%
+ 251  _R_Oniloticus__KiteleLake__173B                 0.31%    passed     99.20%
+ 252  Oniloticus__ZanzibarSite1__Z1A2                 0.31%    passed     99.37%
+ 253  Orukwaensis__LakeRukwa__T10D04                  0.02%    passed     99.97%
+ 254  Oesculentus__LakeRukwa__T10E08                  0.15%    passed     90.04%
+ 255  _R_Oleucostictus__LakeVictoriaMalimbe__V59      0.08%    passed     93.40%
+ 256  _R_Ohunteri__LakeChala__G3_K2G4                 0.02%    passed     96.72%
+ 257  _R_Agrahami__LakeMagadi__Ag2625                 0.01%    passed     98.73%
+ 258  _R_Oesculentus__LakeRukwa__T10C05               0.15%    passed     90.59%
+ 259  Oniloticus__LakeSulungali__T9F7                 0.31%    passed     98.97%
+ 260  _R_Ourolepis__Mbuyunipool__T6B10                0.02%    passed     98.34%
+ 261  Oleucostictus__Malimbe__V58                     0.08%    passed     92.99%
+ 262  Okorogwe__Nambawala__T3J2                       0.03%    passed     99.41%
+ 263  _R_Oniloticus__LakeVictoriaMalimbe__MG292       1.53%    passed     98.14%
+ 264  Oniloticus__KiteleLake__172D                    0.31%    passed     99.12%
+ 265  Oniloticus__MinduReservoir__T1I9                0.31%    passed     99.20%
+ 266  _R_Agrahami__LakeMagadi__Ag2629                 0.01%    passed     98.91%
+ 267  _R_Agrahami__LakeMagadi__Ag2626                 0.01%    passed     98.78%
+ 268  _R_Oleucostictus__LakeAlbert__U4L4              0.08%    passed     93.24%
+ 269  _R_Agrahami__LakeMagadi__Ag2643                 0.01%    passed     96.79%
+ 270  Okorogwe__MlinganoDam__P4B1                     0.03%    passed     99.07%
+ 271  _R_Oleucostictus__MinduReservoir__T1D5          0.08%    passed     93.40%
+ 272  _R_Orukwaensis__LakeRukwa__T10A04               0.02%    passed     99.93%
+ 273  Oniloticus__LakeJipe__F8_K2E4                   0.47%    passed     98.90%
+ 274  _R_Ourolepis__Mbuyunipool__T6B9                 0.02%    passed     99.18%
+ 275  _R_Oniloticus__KilosaSite2__T6D9                0.31%    passed     99.20%
+ 276  Ojipe__NyumbayaMunga__P2G3                      0.04%    passed     97.10%
+ 277  _R_Ogirigan__LakeJipe__E4_K2F2                  0.03%    passed     99.58%
+ 278  Goldenchambo__LakeIkapu__333C                   0.02%    passed     98.21%
+ 279  Goldenchambo__LakeIkapu__G7B2                   0.02%    passed     97.60%
+ 280  Ovariabilis__MakobeIsland__396                  0.03%    passed     99.91%
+ 281  Ogirigan__LakeJipe__E9_K2C8                     0.25%    passed     99.58%
+ 282  Oniloticus__HomboloDam__T9B1                    0.31%    passed     99.12%
+ 283  Orukwaensis__MteraDam__T9H6                     0.02%    passed     99.96%
+ 284  _R_Ourolepis__Kilombero__F3                     0.02%    passed     98.19%
+ 285  _R_Omossambicus__M4                             0.03%    passed     99.13%
+ 286  Oniloticus__LakeSulungali__T9E4                 0.31%    passed     99.33%
+ 287  _R_Oesculentus__LakeRukwa__T10E02               0.14%    passed     89.73%
+ 288  Oleucostictus__Songea__T8F2                     0.08%    passed     93.24%
+ 289  Oniloticus__LakeVictoriaMalimbe__MG297          0.14%    passed     98.56%
+ 290  Oniloticus__KilosaSite3__T7A2                   0.29%    passed     99.07%
+ 291  Oesculentus__LakeRukwa__T10E06                  0.40%    passed     91.18%
+ 292  Oniloticus__KilosaSite2__T6D4                   0.31%    passed     99.20%
+ 293  Orukwaensis__LakeRukwa__T10D06                  0.02%    passed     99.93%
+ 294  Oniloticus__HomboloDam__T9C6                    0.31%    passed     98.85%
+ 295  _R_Orukwaensis__LakeRukwa__T10C08               0.02%    passed     99.96%
+ 296  _R_Oshiranus__Songea__T8B9                      0.31%    passed     99.33%
+ 297  Oniloticus__KiteleLake__172C                    0.31%    passed     99.12%
+ 298  Oshiranus__LakeItamba__275B                     0.02%    passed     97.56%
+ 299  Agrahami__LakeMagadi__Ag2630                    0.16%    passed     95.96%
+ 300  Oniloticus__LakeVictoriaMalimbe__V78            0.31%    passed     98.05%
+ 301  _R_Oniloticus__LakeJipe__P3F6                   0.02%    passed     99.31%
+ 302  Oniloticus__KilosaSite2__T6E1                   0.31%    passed     99.20%
+ 303  Ogirigan__LakeJipe__P3D4                       33.72%    passed     38.24%
+ 304  Oniloticus__KilosaSite2__T6E8                   0.31%    passed     99.77%
+ 305  Oniloticus__HomboloDam__T9A7                    0.31%    passed     99.76%
+ 306  Oleucostictus__LakeVictoriaMalimbe__V52         0.08%    passed     93.24%
+ 307  Oniloticus__HomboloDam__T9A4                    0.31%    passed     99.12%
+ 308  Oniloticus__HomboloDam__T9A9                    0.31%    passed     99.09%
+ 309  Oniloticus__HomboloDam__T9C5                    0.31%    passed     99.09%
+ 310  _R_Ourolepis__ZanzibarSite4__Z1D6               0.02%    passed     99.34%
+ 311  _R_Ourolepis__MinduReservoir__T1D3              0.02%    passed     99.09%
+ 312  Oesculentus__LakeKalimau__ESC7A                 0.15%    passed     89.57%
+ 313  Oleucostictus__LakeVictoriaMalimbe__V55         0.08%    passed     92.56%
+ 314  Oniloticus__LakeAlbert__U7A7                    0.31%    passed     98.85%
+ 315  _R_Oniloticus__KiteleLake__171B                 0.31%    passed     99.20%
+ 316  Oesculentus__LakeRukwa__T10F05                  0.15%    passed     90.36%
+ 317  _R_Agrahami__LakeMagadi__Ag2635                 0.01%    passed     98.33%
+ 318  _R_Agrahami__LakeMagadi__Ag2633                 0.01%    passed     98.96%
+ 319  _R_Oniloticus__LakeJipe__P3F1                   0.31%    passed     99.12%
+ 320  Oaureus2                                        0.16%    passed     11.25%
+ 321  Oniloticus__HomboloDam__T9B3                    0.31%    passed     99.80%
+ 322  Ogirigan__LakeJipe__E5_K2C4                     0.03%    passed     99.00%
+ 323  Oesculentus__Malimbe__V87                       0.15%    passed     89.47%
+ 324  _R_Oniloticus__KilosaSite2__T6F1                0.38%    passed     99.35%
+ 325  Oniloticus__MinduReservoir__T1E3                0.08%    passed     98.55%
+ 326  Oniloticus__HomboloDam__T9B9                    0.31%    passed     99.20%
+ 327  Ogirigan__LakeJipe__P3D1                        0.03%    passed     99.07%
+ 328  _R_Ourolepis__Mbuyunipool__T6A6                 0.02%    passed     99.06%
+ 329  Ogirigan__LakeJipe__E8_K2C7                     0.04%    passed     98.93%
+ 330  Oniloticus__LakeSulungali__T9H5                 0.31%    passed     99.33%
+ 331  Oaureus3                                        0.16%    passed     11.25%
+ 332  _R_Oplacidusrovumae__Rovuma__120_2013           0.30%    passed     99.14%
+ 333  Ovariabilis__Nyasa__17_42                       0.02%    passed     99.99%
+ 334  Oamphimelas__LakeManyara__P3H2                  0.70%    passed     35.12%
+ 335  Oniloticus__LakeVictoriaMakobe__16_436          0.01%    passed     99.26%
+ 336  Goldenchambo__LakeIkapu__G7B1                   0.02%    passed     97.78%
+ 337  Ospilurus1                                      0.45%    passed     99.47%
+ 338  Oniloticus__KiteleLake__170C                    0.31%    passed     99.20%
+ 339  Ourolepis__LowerWamiMbuyuni__T6A5               0.02%    passed     99.69%
+ 340  Ochungruruensis__LakeKiungululu__3D9            0.02%    passed     94.58%
+ 341  Osquamipinnis__LakeKingiri__94B                 0.02%    passed     98.09%
+ 342  Oniloticus__LakeSulungali__T9F8                 0.31%    passed     98.85%
+ 343  Oleucostictus__LakeVictoriaMalimbe__V53         0.08%    passed     93.40%
+ 344  Oplacidus__Mozambique__AC13_A158                0.02%    passed     91.88%
+ 345  _R_Oniloticus__KilosaSite2__T6D5                0.02%    passed     98.97%
+ 346  Oesculentus__LakeVictoriaMalimbe__MG340         0.14%    passed     91.46%
+ 347  Ourolepis__Mbuyunipool__T6B6                    0.02%    passed     96.74%
+ 348  _R_Orukwaensis__LakeRukwa__T10D02               0.02%    passed     99.93%
+ 349  _R_Oleucostictus__KilosaSite3__T7C2             0.08%    passed     93.24%
+ 350  Oniloticus__Malimbe__V65                        0.08%    passed     98.55%
+ 351  _R_Oniloticus__LakeJipe__F1_K2D7                0.31%    passed     98.85%
+ 352  _R_Ourolepis__Mbuyunipool__T6A8                 0.02%    passed     98.29%
+ 353  _R_Oniloticus__LakeJipe__F6_K2E2                0.30%    passed     99.77%
+ 354  _R_Agrahami__LakeMagadi__Ag2640                 0.01%    passed     96.24%
+ 355  _R_Ourolepis__KidatuRiver__T7F10                0.01%    passed     98.08%
+ 356  _R_Orukwaensis__LakeRukwa__T10D08               0.02%    passed     99.99%
+ 357  Ogirigan__LakeJipe__E1_K2E9                    37.02%    passed     20.57%
+ 358  _R_Oniloticus__Jipe__P2I9                       0.31%    passed     99.22%
+ 359  _R_Agrahami__LakeMagadi__Ag2648                 0.01%    passed     99.19%
+ 360  Oniloticus__Jipe__P2I5                          0.31%    passed     99.33%
+ 361  _R_Orukwaensis__LakeRukwa__24_2012              0.01%    passed    100.00%
+ 362  _R_Ogirigan__LakeJipe__E6_K2C5                 26.45%    passed      5.09%
+ 363  Oplacidus__Nambuti__73D                         0.02%    passed     98.76%
+ 364  _R_Oesculentus__LakeRukwa__T10E07               0.15%    passed     91.03%
+ 365  _R_Ourolepis__LakeLugongwe__T2J5                0.02%    passed     97.99%
+ 366  _R_Oesculentus__LakeRukwa__T10F06               0.15%    passed     91.03%
+ 367  _R_Oniloticus__KilosaSite3__T7A6                0.31%    passed     99.12%
+ 368  Orukwaensis__LakeRukwa__T10D01                  0.02%    passed     99.96%
+ 369  Oniloticus__LakeAlbert__U4A4                    0.31%    passed     99.22%
+ 370  Osquamipinnis__LakeMalawi__D14_J06              0.02%    passed     98.45%
+ 371  Ojipe__LakeKalimau__P2F10                       0.04%    passed     97.58%
+ 372  Okarongae__LakeItamba__273A                     0.02%    passed     97.69%
+ 373  Oniloticus__HomboloDam__T9B10                   0.31%    passed     99.12%
+ 374  _R_Otanganicae__Katanga__41                     0.02%    passed     95.86%
+ 375  Oleucostictus__LakeVictoriaMalimbe__V61         0.08%    passed     93.24%
+ 376  Oshiranus__LakeKingiri__97A                     0.02%    passed     98.03%
+ 377  Ogirigan__LakeJipe__P3C4                        0.03%    passed     99.31%
+ 378  _R_Oshiranuschilwae__MalawiBUaquarium__OR1A2    0.02%    passed     97.89%
+ 379  _R_Agrahami__LakeMagadi__Ag2638                 0.01%    passed     98.68%
+ 380  Oshiranus__LakeKingiri__373                     0.02%    passed     98.45%
+ 381  _R_Okorogwe__MlinganoDam__P4B2                  0.03%    passed     99.35%
+ 382  Ogirigan__LakeJipe__P3C5                        0.03%    passed     99.07%
+ 383  _R_Oniloticus__LakeJipe__F2_K2D8               18.79%    passed     25.99%
+ 384  Ogirigan__LakeJipe__P3C3                        0.03%    passed     99.00%
+ 385  _R_Agrahami__LakeMagadi__Ag2644                 0.01%    passed     98.64%
+ 386  Omalagarasi__Uvinza__131                        0.02%    passed     99.89%
+ 387  _R_Oniloticus__LakeJipe__P3F7                   0.02%    passed     99.32%
+ 388  _R_Oniloticus__Jipe__P2I3                       0.31%    passed     99.12%
+ 389  _R_Oniloticus__LakeJipe__P3G6                   0.02%    passed     98.61%
+ 390  Oleucostictus__LakeVictoriaMalimbe__V57         0.84%    passed     93.74%
+ 391  Oniloticus__KilosaSite2__T6F9                   0.31%    passed     99.12%
+ 392  Osquamipinnis__LakeKingiri__94A                 0.02%    passed     97.80%
+ 393  _R_Agrahami__LakeMagadi__Ag2646                 0.01%    passed     97.62%
+ 394  _R_Oniloticus__Malimbe__V68                     0.31%    passed     99.40%
+ 395  Oniloticus__KilosaSite2__T6F10                  0.31%    passed     99.76%
+ 396  Orukwaensis__LakeRukwa__T10A07                  0.02%    passed     99.99%
+ 397  _R_Oshiranus__Salima__411B                      0.02%    passed     98.00%
+ 398  _R_Ourolepis__Mbarali__132                      0.02%    passed     97.87%
+ 399  Oniloticus__HomboloDam__T9A8                    0.31%    passed     99.76%
+ 400  Oesculentus__HomboloDam__2A8_A                  0.15%    passed     92.38%
+ 401  _R_Oamphimelas__LakeSulungali__T9F1             0.07%    passed     32.97%
+ 402  _R_Ogirigan__LakeJipe__P3D5                     0.04%    passed     99.59%
+ 403  Goldenchambo__LakeIkapu__G7B3                   0.02%    passed     98.06%
+ 404  _R_Ourolepis__Ifakara__T9J3                     0.02%    passed     98.15%
+ 405  Osquamipinnis__LakeMalawi__D14_J04              0.02%    passed     97.31%
+ 406  Orukwaensis__MteraDam__T9I5                     0.02%    passed     99.78%
+ 407  Oniloticus__Jipe__P2I1                          0.31%    passed     99.36%
+ 408  _R_Ourolepis__KidatuRiver__T9I8                 0.35%    passed     97.92%
+ 409  _R_Oleucostictus__Songea__T8E4                  0.08%    passed     92.99%
+ 410  _R_Oesculentus__HomboloDam__T9C9                0.14%    passed     88.88%
+ 411  Oniloticus__MinduReservoir__T1I7                0.31%    passed     99.33%
+ 412  Oniloticus__KilosaSite2__T6E3                   0.31%    passed     99.01%
+ 413  Oplacidus__LakeChidya__141D                     0.02%    passed     97.32%
+ 414  _R_Omacrochir__Zambia__CFH11_078                0.03%    passed     99.03%
+ 415  Oesculentus__LakeRukwa__T10E09                  0.14%    passed     90.68%
+ 416  Ovariabilis__Nyasa__17_44                       0.02%    passed     99.99%
+ 417  Oniloticus__Jipe__P2I7                          0.31%    passed     99.36%
+ 418  _R_Okaromo__LakeNyamagoma__206                  0.02%    passed     99.88%
+ 419  Oesculentus__LakeRukwa__T10C06                  0.14%    passed     90.68%
+ 420  _R_Oesculentus__LakeRukwa__T10E03               0.14%    passed     90.68%
+ 421  Oesculentus__HomboloDam__2A7_A                  0.15%    passed     90.04%
+ 422  Oniloticus__LakeSulungali__T9F9                 0.31%    passed     99.33%
+ 423  Omossambicus__SouthAfrica__NM11_021             0.03%    passed     98.88%
+ 424  Oesculentus__LakeRukwa__T10E10                  0.43%    passed     90.27%
+ 425  Ochungruruensis__LakeKiungululu__300            0.02%    passed     94.85%
+ 426  Oniloticus__KiteleLake__173D                    0.31%    passed     99.76%
+ 427  _R_Oplacidus__NamiungoRiver__123B               0.02%    passed     98.69%
+ 428  _R_Ourolepis__KilosaSite3__T6G9                 0.02%    passed     99.06%
+ 429  Oniloticus__KiteleLake__173E                    0.31%    passed     99.09%
+ 430  _R_Oesculentus__Malimbe__V76                    0.16%    passed     94.00%
+ 431  Omacrochir__Angola__RB12_A050                   0.02%    passed     99.06%
+ 432  _R_Ourolepis__Mbuyunipool__T6B2                 0.02%    passed     98.29%
+ 433  _R_Oleucostictus__LakeAlbert__U3L3              0.08%    passed     93.40%
+ 434  _R_Oniloticus__KilosaSite3__T7A3                0.29%    passed     99.07%
+ 435  Oniloticus__HomboloDam__T9C2                    0.31%    passed     99.80%
+ 436  Oniloticus__HomboloDam__T9B5                    0.31%    passed     99.80%
+ 437  Oniloticus__LakeAlbert__U3A3                    0.31%    passed     99.17%
+****  TOTAL                                           0.73%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: _R_Oniloticus__KiteleLake__172B is identical to _R_Oniloticus__KiteleLake__171A but kept for subsequent analysis
+NOTE: _R_Oniloticus__Jipe__P2I9 is identical to _R_Oniloticus__LakeAlbert__U1A1 but kept for subsequent analysis
+NOTE: Oniloticus__LakeAlbert__U10A10 is identical to Oniloticus__KilosaSite2__T6E10 but kept for subsequent analysis
+NOTE: _R_Oleucostictus__Malimbe__V54 is identical to _R_Oleucostictus__Songea__T8E10 but kept for subsequent analysis
+NOTE: Orukwaensis__MteraDam__T9H9 is identical to _R_Orukwaensis__MteraDam__T9I2 but kept for subsequent analysis
+NOTE: _R_Ourolepis__Mbarali__133 is identical to _R_Ourolepis__Mbarali__134 but kept for subsequent analysis
+NOTE: _R_Omossambicus__M5 is identical to _R_Omossambicus__M3 but kept for subsequent analysis
+NOTE: Oniloticus__KilosaSite2__T6F3 is identical to Oniloticus__HomboloDam__2B5_A but kept for subsequent analysis
+NOTE: _R_Ourolepis__ZanzibarSite3__Z1C3 is identical to _R_Ourolepis__ZanzibarSite2__Z1A9 but kept for subsequent analysis
+NOTE: Oniloticus__LakeSulungali__T9E1 is identical to Oniloticus__LakeSulungali__T9F5 but kept for subsequent analysis
+NOTE: Ovariabilis__Nyasa__17_42 is identical to Orukwaensis__LakeRukwa__T10D07 but kept for subsequent analysis
+NOTE: Oaureus2 is identical to _R_Oaureus1 but kept for subsequent analysis
+NOTE: Oniloticus__HomboloDam__T9B6 is identical to Oniloticus__HomboloDam__T9B8 but kept for subsequent analysis
+NOTE: _R_Oleucostictus__LakeVictoriaMalimbe__V60 is identical to _R_Oleucostictus__LakeVictoriaMalimbe__V48 but kept for subsequent analysis
+NOTE: Oniloticus__HomboloDam__T9C4 is identical to Oniloticus__HomboloDam__T9B7 but kept for subsequent analysis
+NOTE: _R_Oniloticus__LakeVictoriaMalimbe__MG295 is identical to _R_Oniloticus__LakeVictoriaMalimbe__MG294 but kept for subsequent analysis
+NOTE: Oniloticus__ZanzibarSite1__Z1A2 is identical to Oniloticus__ZanzibarSite1__Z1A1 but kept for subsequent analysis
+NOTE: Oniloticus__HomboloDam__T9A4 is identical to _R_Oniloticus__HomboloDam__T9C3 but kept for subsequent analysis
+NOTE: _R_Ourolepis__ZanzibarSite5__Z1D8 is identical to _R_Ourolepis__ZanzibarSite3__Z1B8 but kept for subsequent analysis
+NOTE: Oniloticus__LakeVictoriaMalimbe__V70 is identical to Oniloticus__LakeVictoriaMalimbe__MG293 but kept for subsequent analysis
+NOTE: Oniloticus__KilosaSite2__T6D7 is identical to Oniloticus__KilosaSite2__T6D6 but kept for subsequent analysis
+NOTE: _R_Agrahami__LakeMagadi__Ag2635 is identical to _R_Agrahami__LakeMagadi__Ag2639 but kept for subsequent analysis
+NOTE: Oniloticus__KilosaSite2__T6F8 is identical to Oniloticus__HomboloDam__T9A10 but kept for subsequent analysis
+NOTE: Oniloticus__Jipe__P2I1 is identical to Oniloticus__Songea__T8C8 but kept for subsequent analysis
+NOTE: _R_Ourolepis__KilosaSite3__T6G9 is identical to _R_Ourolepis__KilosaSite3__T6G4 but kept for subsequent analysis
+NOTE: Ourolepis__KilosaSite3__T6G10 is identical to Oleucostictus__KilosaSite3__T6I2 but kept for subsequent analysis
+NOTE: Oniloticus__MinduReservoir__T1E3 is identical to _R_Oniloticus__LakeVictoriaMakobe__16_435 but kept for subsequent analysis
+NOTE: Oesculentus__LakeRukwa__T10E09 is identical to Oesculentus__LakeRukwa__T10C07 but kept for subsequent analysis
+NOTE: _R_Oniloticus__LakeJipe__P3F7 is identical to Oniloticus__LakeJipe__P3G8 but kept for subsequent analysis
+NOTE: Ogirigan__LakeJipe__E3_K2F1 is identical to Ogirigan__LakeJipe__P3C8 but kept for subsequent analysis
+NOTE: Ojipe__LakeKalimau__P2F10 is identical to Ojipe__LakeKalimau__P2F9 but kept for subsequent analysis
+NOTE: _R_Oleucostictus__LakeAlbert__U3L3 is identical to _R_Oleucostictus__MinduReservoir__T1D5 but kept for subsequent analysis
+NOTE: _R_Orukwaensis__LakeRukwa__T10D02 is identical to _R_Orukwaensis__LakeRukwa__T10A04 but kept for subsequent analysis
+NOTE: _R_Oshiranus__Songea__T8B9 is identical to Oniloticus__LakeSulungali__T9E4 but kept for subsequent analysis
+NOTE: _R_Oniloticus__KilosaSite3__T7A3 is identical to Oniloticus__KilosaSite3__T7A2 but kept for subsequent analysis
+NOTE: _R_Oniloticus__LakeJipe__P3F1 is identical to Oniloticus__KiteleLake__172C but kept for subsequent analysis
+NOTE: _R_Ourolepis__Mbuyunipool__T6B2 is identical to _R_Ourolepis__Mbuyunipool__T6A8 but kept for subsequent analysis
+NOTE: 48 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: _R_Oniloticus__KilosaSite2__T6D9 (identical to _R_Oniloticus__KiteleLake__171A) is ignored but added at the end
+NOTE: _R_Oleucostictus__KilosaSite3__T6H10 (identical to _R_Oleucostictus__Songea__T8E10) is ignored but added at the end
+NOTE: Oleucostictus__LakeVictoriaMalimbe__V49 (identical to _R_Oleucostictus__Songea__T8E10) is ignored but added at the end
+NOTE: Oleucostictus__KilosaSite3__T6I4 (identical to _R_Oleucostictus__Songea__T8E10) is ignored but added at the end
+NOTE: Oleucostictus__LakeVictoriaMalimbe__V62 (identical to _R_Oleucostictus__Songea__T8E10) is ignored but added at the end
+NOTE: Oleucostictus__LakeAlbert__U5L5 (identical to _R_Oleucostictus__Songea__T8E10) is ignored but added at the end
+NOTE: _R_Oleucostictus__KilosaSite3__T7C3 (identical to _R_Oleucostictus__Songea__T8E10) is ignored but added at the end
+NOTE: _R_Oleucostictus__KilosaSite3__T7A9 (identical to _R_Oleucostictus__Songea__T8E10) is ignored but added at the end
+NOTE: _R_Oleucostictus__LakeAlbert__U4L4 (identical to _R_Oleucostictus__Songea__T8E10) is ignored but added at the end
+NOTE: Oleucostictus__Songea__T8F2 (identical to _R_Oleucostictus__Songea__T8E10) is ignored but added at the end
+NOTE: Oleucostictus__LakeVictoriaMalimbe__V52 (identical to _R_Oleucostictus__Songea__T8E10) is ignored but added at the end
+NOTE: _R_Oleucostictus__KilosaSite3__T7C2 (identical to _R_Oleucostictus__Songea__T8E10) is ignored but added at the end
+NOTE: Oleucostictus__LakeVictoriaMalimbe__V61 (identical to _R_Oleucostictus__Songea__T8E10) is ignored but added at the end
+NOTE: Orukwaensis__MteraDam__T9H6 (identical to _R_Orukwaensis__MteraDam__T9I2) is ignored but added at the end
+NOTE: _R_Ourolepis__Mbarali__132 (identical to _R_Ourolepis__Mbarali__134) is ignored but added at the end
+NOTE: _R_Omossambicus__M1 (identical to _R_Omossambicus__M3) is ignored but added at the end
+NOTE: _R_Omossambicus__M2 (identical to _R_Omossambicus__M3) is ignored but added at the end
+NOTE: _R_Omossambicus__M4 (identical to _R_Omossambicus__M3) is ignored but added at the end
+NOTE: Oniloticus__HomboloDam__2B4_A (identical to Oniloticus__HomboloDam__2B5_A) is ignored but added at the end
+NOTE: Oplacidus__Nambuti__73A (identical to Oniloticus__HomboloDam__2B5_A) is ignored but added at the end
+NOTE: Oniloticus__KilosaSite2__T6D10 (identical to Oniloticus__HomboloDam__2B5_A) is ignored but added at the end
+NOTE: Oniloticus__Mbarali__140 (identical to Oniloticus__HomboloDam__2B5_A) is ignored but added at the end
+NOTE: Oniloticus__HomboloDam__T9A7 (identical to Oniloticus__HomboloDam__2B5_A) is ignored but added at the end
+NOTE: Oniloticus__HomboloDam__T9A8 (identical to Oniloticus__HomboloDam__2B5_A) is ignored but added at the end
+NOTE: Oniloticus__KiteleLake__173D (identical to Oniloticus__HomboloDam__2B5_A) is ignored but added at the end
+NOTE: _R_Ourolepis__ZanzibarSite3__Z1C4 (identical to _R_Ourolepis__ZanzibarSite2__Z1A9) is ignored but added at the end
+NOTE: Oniloticus__HomboloDam__T9B2 (identical to Oniloticus__LakeSulungali__T9F5) is ignored but added at the end
+NOTE: _R_Oniloticus__LakeJipe__F7_K2E3 (identical to Oniloticus__LakeSulungali__T9F5) is ignored but added at the end
+NOTE: Oniloticus__LakeSulungali__T9F8 (identical to Oniloticus__LakeSulungali__T9F5) is ignored but added at the end
+NOTE: _R_Oniloticus__LakeJipe__F1_K2D7 (identical to Oniloticus__LakeSulungali__T9F5) is ignored but added at the end
+NOTE: _R_Orukwaensis__LakeRukwa__T10D08 (identical to Orukwaensis__LakeRukwa__T10D07) is ignored but added at the end
+NOTE: Ovariabilis__Nyasa__17_44 (identical to Orukwaensis__LakeRukwa__T10D07) is ignored but added at the end
+NOTE: Oaureus3 (identical to _R_Oaureus1) is ignored but added at the end
+NOTE: Oniloticus__KilosaSite3__T6J6 (identical to Oniloticus__HomboloDam__T9B8) is ignored but added at the end
+NOTE: Oniloticus__HomboloDam__T9A1 (identical to Oniloticus__HomboloDam__T9B8) is ignored but added at the end
+NOTE: _R_Oniloticus__HomboloDam__T9B4 (identical to Oniloticus__HomboloDam__T9B7) is ignored but added at the end
+NOTE: _R_Oniloticus__LakeJipe__F6_K2E2 (identical to Oniloticus__HomboloDam__T9B7) is ignored but added at the end
+NOTE: Oniloticus__LakeVictoriaMalimbe__V78 (identical to Oniloticus__LakeVictoriaMalimbe__MG293) is ignored but added at the end
+NOTE: Oniloticus__MinduReservoir__T1I9 (identical to Oniloticus__KilosaSite2__T6D6) is ignored but added at the end
+NOTE: Oniloticus__KiteleLake__170C (identical to Oniloticus__KilosaSite2__T6D6) is ignored but added at the end
+NOTE: Oniloticus__HomboloDam__T9C2 (identical to Oniloticus__HomboloDam__T9A10) is ignored but added at the end
+NOTE: Oniloticus__Jipe__P2I7 (identical to Oniloticus__Songea__T8C8) is ignored but added at the end
+NOTE: _R_Ohunteri__LakeChala__G3_K2G4 (identical to Oleucostictus__KilosaSite3__T6I2) is ignored but added at the end
+NOTE: Oniloticus__Malimbe__V65 (identical to _R_Oniloticus__LakeVictoriaMakobe__16_435) is ignored but added at the end
+NOTE: Oesculentus__LakeRukwa__T10C06 (identical to Oesculentus__LakeRukwa__T10C07) is ignored but added at the end
+NOTE: _R_Oesculentus__LakeRukwa__T10E03 (identical to Oesculentus__LakeRukwa__T10C07) is ignored but added at the end
+NOTE: Oniloticus__Jipe__P2I5 (identical to Oniloticus__LakeSulungali__T9E4) is ignored but added at the end
+NOTE: _R_Oniloticus__KilosaSite3__T7A6 (identical to Oniloticus__KiteleLake__172C) is ignored but added at the end
+Alignment was printed to NoHybridMitoset_longassembly_mars_clean0.5.aln.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to NoHybridMitoset_longassembly_mars_clean0.5.aln.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.488 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -72927.898
+2. Current log-likelihood: -72926.387
+3. Current log-likelihood: -72925.011
+4. Current log-likelihood: -72923.632
+5. Current log-likelihood: -72922.288
+6. Current log-likelihood: -72920.985
+7. Current log-likelihood: -72919.721
+8. Current log-likelihood: -72918.493
+9. Current log-likelihood: -72917.321
+10. Current log-likelihood: -72916.177
+11. Current log-likelihood: -72915.081
+12. Current log-likelihood: -72914.020
+13. Current log-likelihood: -72913.007
+Optimal log-likelihood: -72911.898
+Rate parameters:  A-C: 1.50316  A-G: 22.77601  A-T: 1.79645  C-G: 0.63842  C-T: 18.75750  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.438
+Gamma shape alpha: 0.505
+Parameters optimization took 13 rounds (5.858 sec)
+Time for fast ML tree search: 13.578 seconds
+
+NOTE: ModelFinder requires 512 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 16622) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         77057.247    783 155680.493   155758.012   161724.065
+  2  GTR+F+I       73351.121    784 148270.242   148347.964   154321.532
+  3  GTR+F+G4      73118.523    784 147805.046   147882.767   153856.336
+  4  GTR+F+I+G4    72897.186    785 147364.371   147442.296   153423.380
+  5  GTR+F+R2      72926.279    785 147422.559   147500.484   153481.567
+  6  GTR+F+R3      72922.579    787 147419.157   147497.490   153493.603
+ 17  SYM+I+G4      73518.320    782 148600.640   148677.956   154636.493
+ 30  TVM+F+I+G4    72911.262    784 147390.524   147468.245   153441.814
+ 43  TVMe+I+G4     73538.225    781 148638.451   148715.565   154666.585
+ 56  TIM3+F+I+G4   72941.924    783 147449.848   147527.366   153493.419
+ 69  TIM3e+I+G4    73664.182    780 148888.363   148965.275   154908.779
+ 82  TIM2+F+I+G4   72903.846    783 147373.692   147451.211   153417.264
+ 95  TIM2e+I+G4    73520.725    780 148601.450   148678.361   154621.866
+108  TIM+F+I+G4    72947.740    783 147461.480   147538.999   153505.052
+121  TIMe+I+G4     73664.799    780 148889.598   148966.510   154910.014
+134  TPM3u+F+I+G4  72956.120    782 147476.239   147553.556   153512.093
+147  TPM3+F+I+G4   72956.120    782 147476.239   147553.556   153512.093
+160  TPM2u+F+I+G4  72917.689    782 147399.379   147476.695   153435.232
+173  TPM2+F+I+G4   72917.689    782 147399.379   147476.695   153435.232
+186  K3Pu+F+I+G4   72961.778    782 147487.556   147564.873   153523.410
+199  K3P+I+G4      73690.704    779 148939.409   149016.119   154952.106
+212  TN+F+I+G4     72947.736    782 147459.472   147536.788   153495.325
+225  TNe+I+G4      73665.723    779 148889.446   148966.156   154902.143
+238  HKY+F+I+G4    72961.778    781 147485.555   147562.669   153513.690
+251  K2P+I+G4      73691.677    778 148939.353   149015.862   154944.333
+264  F81+F+I+G4    78541.267    780 158642.534   158719.446   164662.951
+277  JC+I+G4       79257.790    777 160069.579   160145.887   166066.840
+Akaike Information Criterion:           GTR+F+I+G4
+Corrected Akaike Information Criterion: GTR+F+I+G4
+Bayesian Information Criterion:         TIM2+F+I+G4
+Best-fit model: TIM2+F+I+G4 chosen according to BIC
+
+All model information printed to NoHybridMitoset_longassembly_mars_clean0.5.aln.model.gz
+CPU time for ModelFinder: 1482.012 seconds (0h:24m:42s)
+Wall-clock time for ModelFinder: 95.628 seconds (0h:1m:35s)
+
+---> START RUN NUMBER 1 (seed: 358173)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.481 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 358173)...
+
+NOTE: 214 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.190 / LogL: -73169.645
+Init pinv, alpha: 0.083, 1.000 / Estimate: 0.489, 0.608 / LogL: -72945.302
+Init pinv, alpha: 0.166, 1.000 / Estimate: 0.520, 0.694 / LogL: -72941.584
+Init pinv, alpha: 0.249, 1.000 / Estimate: 0.520, 0.693 / LogL: -72942.025
+Init pinv, alpha: 0.332, 1.000 / Estimate: 0.520, 0.694 / LogL: -72942.519
+Init pinv, alpha: 0.415, 1.000 / Estimate: 0.521, 0.698 / LogL: -72943.129
+Init pinv, alpha: 0.498, 1.000 / Estimate: 0.520, 0.695 / LogL: -72944.120
+Init pinv, alpha: 0.581, 1.000 / Estimate: 0.560, 0.847 / LogL: -72945.047
+Init pinv, alpha: 0.663, 1.000 / Estimate: 0.561, 0.852 / LogL: -72946.927
+Init pinv, alpha: 0.746, 1.000 / Estimate: 0.563, 0.860 / LogL: -72950.060
+Optimal pinv,alpha: 0.520, 0.694 / LogL: -72941.584
+
+Parameters optimization took 247.493 sec
+Computing ML distances based on estimated model parameters... 33.113 sec
+Computing BIONJ tree...
+0.393 seconds
+Log-likelihood of BIONJ tree: -73195.877
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 59.371 second
+Computing log-likelihood of 98 initial trees ... 13.402 seconds
+Current best score: -72919.435
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -72893.367
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -72892.913
+BETTER TREE FOUND at iteration 3: -72892.908
+Iteration 10 / LogL: -72892.937 / Time: 0h:6m:48s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 17: -72892.823
+Iteration 20 / LogL: -72893.326 / Time: 0h:7m:51s
+Finish initializing candidate tree set (20)
+Current best tree score: -72892.823 / CPU time: 218.750
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -74046.624 / Time: 0h:8m:46s (0h:26m:14s left)
+Iteration 40 / LogL: -72893.446 / Time: 0h:9m:33s (0h:18m:50s left)
+Iteration 50 / LogL: -72897.704 / Time: 0h:10m:30s (0h:14m:20s left)
+Log-likelihood cutoff on original alignment: -72950.210
+Iteration 60 / LogL: -72894.526 / Time: 0h:11m:29s (0h:11m:4s left)
+Iteration 70 / LogL: -72953.587 / Time: 0h:12m:17s (0h:8m:21s left)
+Iteration 80 / LogL: -72900.788 / Time: 0h:13m:11s (0h:6m:10s left)
+Iteration 90 / LogL: -72905.472 / Time: 0h:14m:8s (0h:4m:17s left)
+Iteration 100 / LogL: -72937.382 / Time: 0h:15m:4s (0h:2m:35s left)
+Log-likelihood cutoff on original alignment: -72950.210
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -72971.844 / Time: 0h:16m:0s (0h:13m:12s left)
+Iteration 120 / LogL: -72893.888 / Time: 0h:16m:54s (0h:11m:21s left)
+Iteration 130 / LogL: -72893.302 / Time: 0h:17m:50s (0h:9m:40s left)
+Iteration 140 / LogL: -72899.788 / Time: 0h:18m:40s (0h:8m:3s left)
+Iteration 150 / LogL: -72893.330 / Time: 0h:19m:39s (0h:6m:35s left)
+Log-likelihood cutoff on original alignment: -72950.210
+Iteration 160 / LogL: -72893.289 / Time: 0h:20m:40s (0h:5m:11s left)
+Iteration 170 / LogL: -72895.017 / Time: 0h:21m:37s (0h:3m:50s left)
+Iteration 180 / LogL: -73022.227 / Time: 0h:22m:36s (0h:2m:31s left)
+Iteration 190 / LogL: -72893.507 / Time: 0h:23m:34s (0h:1m:14s left)
+Iteration 200 / LogL: -72893.355 / Time: 0h:24m:37s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -72950.210
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:24m:40s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -72892.822
+2. Current log-likelihood: -72892.768
+3. Current log-likelihood: -72892.716
+4. Current log-likelihood: -72892.661
+5. Current log-likelihood: -72892.615
+6. Current log-likelihood: -72892.563
+7. Current log-likelihood: -72892.526
+8. Current log-likelihood: -72892.490
+9. Current log-likelihood: -72892.458
+10. Current log-likelihood: -72892.427
+11. Current log-likelihood: -72892.396
+12. Current log-likelihood: -72892.371
+13. Current log-likelihood: -72892.349
+14. Current log-likelihood: -72892.328
+15. Current log-likelihood: -72892.306
+16. Current log-likelihood: -72892.288
+17. Current log-likelihood: -72892.272
+18. Current log-likelihood: -72892.257
+19. Current log-likelihood: -72892.244
+20. Current log-likelihood: -72892.232
+21. Current log-likelihood: -72892.222
+Optimal log-likelihood: -72892.209
+Rate parameters:  A-C: 2.02431  A-G: 28.14872  A-T: 2.02431  C-G: 1.00000  C-T: 23.35468  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.535
+Gamma shape alpha: 0.748
+Parameters optimization took 21 rounds (10.438 sec)
+BEST SCORE FOUND : -72892.209
+Creating bootstrap support values...
+Split supports printed to NEXUS file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex
+Total tree length: 0.649
+
+Total number of iterations: 200
+CPU time used for tree search: 18346.422 sec (5h:5m:46s)
+Wall-clock time used for tree search: 1227.322 sec (0h:20m:27s)
+Total CPU time used: 22501.890 sec (6h:15m:1s)
+Total wall-clock time used: 1493.418 sec (0h:24m:53s)
+
+Computing bootstrap consensus tree...
+Reading input file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex...
+389 taxa and 7006 splits.
+Consensus tree written to NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Reading input trees file NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Log-likelihood of consensus tree: -72902.263
+
+---> START RUN NUMBER 2 (seed: 359173)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.543 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 359173)...
+
+NOTE: 214 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -79046.385
+2. Current log-likelihood: -72967.186
+3. Current log-likelihood: -72937.671
+4. Current log-likelihood: -72936.049
+5. Current log-likelihood: -72934.583
+6. Current log-likelihood: -72933.015
+7. Current log-likelihood: -72931.527
+8. Current log-likelihood: -72930.208
+9. Current log-likelihood: -72928.765
+10. Current log-likelihood: -72927.529
+11. Current log-likelihood: -72926.187
+12. Current log-likelihood: -72925.036
+13. Current log-likelihood: -72923.797
+14. Current log-likelihood: -72922.728
+15. Current log-likelihood: -72921.580
+16. Current log-likelihood: -72920.604
+17. Current log-likelihood: -72919.539
+18. Current log-likelihood: -72918.644
+19. Current log-likelihood: -72917.676
+20. Current log-likelihood: -72916.857
+21. Current log-likelihood: -72915.980
+22. Current log-likelihood: -72915.238
+23. Current log-likelihood: -72914.439
+24. Current log-likelihood: -72913.774
+25. Current log-likelihood: -72913.127
+26. Current log-likelihood: -72912.508
+27. Current log-likelihood: -72911.922
+28. Current log-likelihood: -72911.366
+29. Current log-likelihood: -72910.840
+30. Current log-likelihood: -72910.346
+31. Current log-likelihood: -72909.879
+32. Current log-likelihood: -72909.440
+33. Current log-likelihood: -72909.029
+34. Current log-likelihood: -72908.644
+35. Current log-likelihood: -72908.284
+36. Current log-likelihood: -72907.946
+37. Current log-likelihood: -72907.630
+38. Current log-likelihood: -72907.333
+39. Current log-likelihood: -72907.059
+40. Current log-likelihood: -72906.802
+41. Current log-likelihood: -72906.564
+42. Current log-likelihood: -72906.341
+43. Current log-likelihood: -72906.136
+44. Current log-likelihood: -72905.946
+45. Current log-likelihood: -72905.772
+46. Current log-likelihood: -72905.609
+47. Current log-likelihood: -72905.457
+48. Current log-likelihood: -72905.320
+49. Current log-likelihood: -72905.189
+50. Current log-likelihood: -72905.071
+51. Current log-likelihood: -72904.965
+52. Current log-likelihood: -72904.862
+Optimal log-likelihood: -72904.756
+Rate parameters:  A-C: 2.06383  A-G: 28.76381  A-T: 2.06383  C-G: 1.00000  C-T: 23.73242  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.520
+Gamma shape alpha: 0.694
+Parameters optimization took 52 rounds (63.241 sec)
+Computing ML distances based on estimated model parameters... 33.358 sec
+Computing BIONJ tree...
+0.466 seconds
+Log-likelihood of BIONJ tree: -73195.818
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 60.486 second
+Computing log-likelihood of 98 initial trees ... 14.734 seconds
+Current best score: -72904.756
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -72893.105
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -72892.786
+BETTER TREE FOUND at iteration 9: -72892.780
+Iteration 10 / LogL: -72892.854 / Time: 0h:3m:29s
+Iteration 20 / LogL: -72892.873 / Time: 0h:4m:36s
+Finish initializing candidate tree set (20)
+Current best tree score: -72892.780 / CPU time: 207.291
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -72899.571 / Time: 0h:5m:32s (0h:15m:2s left)
+Iteration 40 / LogL: -73139.283 / Time: 0h:6m:32s (0h:11m:32s left)
+Iteration 50 / LogL: -72893.633 / Time: 0h:7m:38s (0h:9m:9s left)
+Log-likelihood cutoff on original alignment: -72944.410
+Iteration 60 / LogL: -72893.404 / Time: 0h:8m:43s (0h:7m:13s left)
+Iteration 70 / LogL: -72905.650 / Time: 0h:9m:46s (0h:5m:30s left)
+Iteration 80 / LogL: -72893.470 / Time: 0h:10m:51s (0h:3m:58s left)
+Iteration 90 / LogL: -72896.689 / Time: 0h:11m:56s (0h:2m:32s left)
+Iteration 100 / LogL: -72894.609 / Time: 0h:12m:53s (0h:1m:10s left)
+Log-likelihood cutoff on original alignment: -72944.410
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+Iteration 110 / LogL: -72897.480 / Time: 0h:13m:56s (0h:11m:29s left)
+TREE SEARCH COMPLETED AFTER 110 ITERATIONS / Time: 0h:13m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -72892.780
+2. Current log-likelihood: -72892.718
+3. Current log-likelihood: -72892.662
+4. Current log-likelihood: -72892.596
+5. Current log-likelihood: -72892.548
+6. Current log-likelihood: -72892.502
+7. Current log-likelihood: -72892.461
+8. Current log-likelihood: -72892.424
+9. Current log-likelihood: -72892.390
+10. Current log-likelihood: -72892.359
+11. Current log-likelihood: -72892.330
+12. Current log-likelihood: -72892.304
+13. Current log-likelihood: -72892.278
+14. Current log-likelihood: -72892.256
+15. Current log-likelihood: -72892.236
+16. Current log-likelihood: -72892.219
+17. Current log-likelihood: -72892.202
+18. Current log-likelihood: -72892.185
+19. Current log-likelihood: -72892.170
+20. Current log-likelihood: -72892.157
+21. Current log-likelihood: -72892.147
+22. Current log-likelihood: -72892.136
+Optimal log-likelihood: -72892.125
+Rate parameters:  A-C: 2.06274  A-G: 28.74688  A-T: 2.06274  C-G: 1.00000  C-T: 23.77388  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.535
+Gamma shape alpha: 0.749
+Parameters optimization took 22 rounds (11.201 sec)
+BEST SCORE FOUND : -72892.125
+Creating bootstrap support values...
+Split supports printed to NEXUS file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex
+Total tree length: 0.649
+
+Total number of iterations: 110
+CPU time used for tree search: 11128.268 sec (3h:5m:28s)
+Wall-clock time used for tree search: 767.014 sec (0h:12m:47s)
+Total CPU time used: 12370.213 sec (3h:26m:10s)
+Total wall-clock time used: 849.985 sec (0h:14m:9s)
+
+Computing bootstrap consensus tree...
+Reading input file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex...
+389 taxa and 6502 splits.
+Consensus tree written to NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Reading input trees file NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Log-likelihood of consensus tree: -72902.237
+
+---> START RUN NUMBER 3 (seed: 360173)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.471 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 360173)...
+
+NOTE: 214 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -79046.408
+2. Current log-likelihood: -72967.407
+3. Current log-likelihood: -72938.131
+4. Current log-likelihood: -72936.509
+5. Current log-likelihood: -72935.043
+6. Current log-likelihood: -72933.473
+7. Current log-likelihood: -72931.985
+8. Current log-likelihood: -72930.665
+9. Current log-likelihood: -72929.222
+10. Current log-likelihood: -72927.984
+11. Current log-likelihood: -72926.640
+12. Current log-likelihood: -72925.486
+13. Current log-likelihood: -72924.248
+14. Current log-likelihood: -72923.176
+15. Current log-likelihood: -72922.028
+16. Current log-likelihood: -72921.050
+17. Current log-likelihood: -72919.985
+18. Current log-likelihood: -72919.089
+19. Current log-likelihood: -72918.120
+20. Current log-likelihood: -72917.301
+21. Current log-likelihood: -72916.423
+22. Current log-likelihood: -72915.680
+23. Current log-likelihood: -72914.880
+24. Current log-likelihood: -72914.216
+25. Current log-likelihood: -72913.568
+26. Current log-likelihood: -72912.949
+27. Current log-likelihood: -72912.363
+28. Current log-likelihood: -72911.807
+29. Current log-likelihood: -72911.280
+30. Current log-likelihood: -72910.787
+31. Current log-likelihood: -72910.320
+32. Current log-likelihood: -72909.881
+33. Current log-likelihood: -72909.469
+34. Current log-likelihood: -72909.085
+35. Current log-likelihood: -72908.724
+36. Current log-likelihood: -72908.387
+37. Current log-likelihood: -72908.071
+38. Current log-likelihood: -72907.775
+39. Current log-likelihood: -72907.500
+40. Current log-likelihood: -72907.244
+41. Current log-likelihood: -72907.006
+42. Current log-likelihood: -72906.783
+43. Current log-likelihood: -72906.578
+44. Current log-likelihood: -72906.388
+45. Current log-likelihood: -72906.214
+46. Current log-likelihood: -72906.052
+47. Current log-likelihood: -72905.899
+48. Current log-likelihood: -72905.763
+49. Current log-likelihood: -72905.632
+50. Current log-likelihood: -72905.514
+51. Current log-likelihood: -72905.409
+52. Current log-likelihood: -72905.306
+Optimal log-likelihood: -72905.199
+Rate parameters:  A-C: 2.07072  A-G: 28.85418  A-T: 2.07072  C-G: 1.00000  C-T: 23.81306  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.520
+Gamma shape alpha: 0.694
+Parameters optimization took 52 rounds (33.097 sec)
+Computing ML distances based on estimated model parameters... 33.250 sec
+Computing BIONJ tree...
+0.523 seconds
+Log-likelihood of BIONJ tree: -73195.837
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 60.598 second
+Computing log-likelihood of 98 initial trees ... 14.902 seconds
+Current best score: -72905.199
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -72893.145
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -72892.811
+BETTER TREE FOUND at iteration 5: -72892.804
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 10: -72892.724
+Iteration 10 / LogL: -72892.724 / Time: 0h:3m:7s
+Iteration 20 / LogL: -72892.727 / Time: 0h:4m:17s
+Finish initializing candidate tree set (20)
+Current best tree score: -72892.724 / CPU time: 217.943
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -72893.131 / Time: 0h:5m:9s (0h:14m:9s left)
+Iteration 40 / LogL: -72943.501 / Time: 0h:6m:8s (0h:10m:59s left)
+Iteration 50 / LogL: -72901.520 / Time: 0h:7m:13s (0h:8m:49s left)
+Log-likelihood cutoff on original alignment: -72952.774
+Iteration 60 / LogL: -72894.137 / Time: 0h:8m:15s (0h:6m:58s left)
+Iteration 70 / LogL: -72932.094 / Time: 0h:9m:15s (0h:5m:20s left)
+Iteration 80 / LogL: -72994.750 / Time: 0h:10m:12s (0h:3m:52s left)
+Iteration 90 / LogL: -72893.351 / Time: 0h:11m:13s (0h:2m:31s left)
+Iteration 100 / LogL: -72894.478 / Time: 0h:12m:15s (0h:1m:14s left)
+Log-likelihood cutoff on original alignment: -72952.774
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 110 / LogL: -72894.377 / Time: 0h:13m:15s (0h:10m:55s left)
+TREE SEARCH COMPLETED AFTER 111 ITERATIONS / Time: 0h:13m:21s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -72892.724
+2. Current log-likelihood: -72892.676
+3. Current log-likelihood: -72892.646
+4. Current log-likelihood: -72892.585
+5. Current log-likelihood: -72892.540
+6. Current log-likelihood: -72892.499
+7. Current log-likelihood: -72892.461
+8. Current log-likelihood: -72892.427
+9. Current log-likelihood: -72892.396
+10. Current log-likelihood: -72892.366
+11. Current log-likelihood: -72892.339
+12. Current log-likelihood: -72892.313
+13. Current log-likelihood: -72892.291
+14. Current log-likelihood: -72892.272
+15. Current log-likelihood: -72892.254
+16. Current log-likelihood: -72892.238
+17. Current log-likelihood: -72892.221
+18. Current log-likelihood: -72892.204
+19. Current log-likelihood: -72892.192
+20. Current log-likelihood: -72892.181
+21. Current log-likelihood: -72892.169
+Optimal log-likelihood: -72892.158
+Rate parameters:  A-C: 2.06933  A-G: 28.83653  A-T: 2.06933  C-G: 1.00000  C-T: 23.84846  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.535
+Gamma shape alpha: 0.749
+Parameters optimization took 21 rounds (10.849 sec)
+BEST SCORE FOUND : -72892.158
+Creating bootstrap support values...
+Split supports printed to NEXUS file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex
+Total tree length: 0.649
+
+Total number of iterations: 111
+CPU time used for tree search: 11022.841 sec (3h:3m:42s)
+Wall-clock time used for tree search: 761.958 sec (0h:12m:41s)
+Total CPU time used: 11781.862 sec (3h:16m:21s)
+Total wall-clock time used: 815.043 sec (0h:13m:35s)
+
+Computing bootstrap consensus tree...
+Reading input file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex...
+389 taxa and 6473 splits.
+Consensus tree written to NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Reading input trees file NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Log-likelihood of consensus tree: -72902.077
+
+---> START RUN NUMBER 4 (seed: 361173)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.470 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 361173)...
+
+NOTE: 214 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -79045.411
+2. Current log-likelihood: -72967.701
+3. Current log-likelihood: -72938.313
+4. Current log-likelihood: -72936.687
+5. Current log-likelihood: -72935.218
+6. Current log-likelihood: -72933.647
+7. Current log-likelihood: -72932.156
+8. Current log-likelihood: -72930.834
+9. Current log-likelihood: -72929.388
+10. Current log-likelihood: -72928.149
+11. Current log-likelihood: -72926.805
+12. Current log-likelihood: -72925.651
+13. Current log-likelihood: -72924.410
+14. Current log-likelihood: -72923.338
+15. Current log-likelihood: -72922.188
+16. Current log-likelihood: -72921.209
+17. Current log-likelihood: -72920.142
+18. Current log-likelihood: -72919.245
+19. Current log-likelihood: -72918.275
+20. Current log-likelihood: -72917.454
+21. Current log-likelihood: -72916.574
+22. Current log-likelihood: -72915.830
+23. Current log-likelihood: -72915.029
+24. Current log-likelihood: -72914.363
+25. Current log-likelihood: -72913.714
+26. Current log-likelihood: -72913.093
+27. Current log-likelihood: -72912.506
+28. Current log-likelihood: -72911.948
+29. Current log-likelihood: -72911.421
+30. Current log-likelihood: -72910.926
+31. Current log-likelihood: -72910.458
+32. Current log-likelihood: -72910.018
+33. Current log-likelihood: -72909.605
+34. Current log-likelihood: -72909.220
+35. Current log-likelihood: -72908.859
+36. Current log-likelihood: -72908.520
+37. Current log-likelihood: -72908.204
+38. Current log-likelihood: -72907.906
+39. Current log-likelihood: -72907.631
+40. Current log-likelihood: -72907.374
+41. Current log-likelihood: -72907.135
+42. Current log-likelihood: -72906.911
+43. Current log-likelihood: -72906.706
+44. Current log-likelihood: -72906.515
+45. Current log-likelihood: -72906.341
+46. Current log-likelihood: -72906.178
+47. Current log-likelihood: -72906.025
+48. Current log-likelihood: -72905.889
+49. Current log-likelihood: -72905.757
+50. Current log-likelihood: -72905.639
+51. Current log-likelihood: -72905.533
+52. Current log-likelihood: -72905.430
+Optimal log-likelihood: -72905.323
+Rate parameters:  A-C: 2.05858  A-G: 28.69313  A-T: 2.05858  C-G: 1.00000  C-T: 23.67644  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.520
+Gamma shape alpha: 0.694
+Parameters optimization took 52 rounds (26.132 sec)
+Computing ML distances based on estimated model parameters... 33.490 sec
+Computing BIONJ tree...
+0.531 seconds
+Log-likelihood of BIONJ tree: -73195.838
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 60.335 second
+Computing log-likelihood of 98 initial trees ... 13.220 seconds
+Current best score: -72905.323
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -72893.514
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -72892.801
+BETTER TREE FOUND at iteration 5: -72892.795
+Iteration 10 / LogL: -72893.937 / Time: 0h:2m:46s
+BETTER TREE FOUND at iteration 16: -72892.786
+Iteration 20 / LogL: -72893.879 / Time: 0h:3m:47s
+Finish initializing candidate tree set (20)
+Current best tree score: -72892.786 / CPU time: 196.192
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -72893.351 / Time: 0h:4m:35s (0h:13m:33s left)
+Iteration 40 / LogL: -72896.426 / Time: 0h:5m:31s (0h:10m:42s left)
+Iteration 50 / LogL: -72901.146 / Time: 0h:6m:16s (0h:8m:25s left)
+Log-likelihood cutoff on original alignment: -72950.124
+Iteration 60 / LogL: -72907.057 / Time: 0h:7m:12s (0h:6m:48s left)
+Iteration 70 / LogL: -72896.626 / Time: 0h:7m:57s (0h:5m:17s left)
+Iteration 80 / LogL: -72893.298 / Time: 0h:8m:50s (0h:4m:1s left)
+Iteration 90 / LogL: -72907.391 / Time: 0h:9m:40s (0h:2m:49s left)
+Iteration 100 / LogL: -72940.020 / Time: 0h:10m:36s (0h:1m:42s left)
+Log-likelihood cutoff on original alignment: -72950.124
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 110 / LogL: -72894.274 / Time: 0h:11m:30s (0h:9m:28s left)
+TREE SEARCH COMPLETED AFTER 117 ITERATIONS / Time: 0h:12m:8s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -72892.786
+2. Current log-likelihood: -72892.725
+3. Current log-likelihood: -72892.668
+4. Current log-likelihood: -72892.604
+5. Current log-likelihood: -72892.557
+6. Current log-likelihood: -72892.512
+7. Current log-likelihood: -72892.472
+8. Current log-likelihood: -72892.436
+9. Current log-likelihood: -72892.403
+10. Current log-likelihood: -72892.372
+11. Current log-likelihood: -72892.344
+12. Current log-likelihood: -72892.318
+13. Current log-likelihood: -72892.293
+14. Current log-likelihood: -72892.270
+15. Current log-likelihood: -72892.250
+16. Current log-likelihood: -72892.232
+17. Current log-likelihood: -72892.216
+18. Current log-likelihood: -72892.199
+19. Current log-likelihood: -72892.185
+20. Current log-likelihood: -72892.172
+21. Current log-likelihood: -72892.161
+22. Current log-likelihood: -72892.151
+Optimal log-likelihood: -72892.140
+Rate parameters:  A-C: 2.05783  A-G: 28.67856  A-T: 2.05783  C-G: 1.00000  C-T: 23.71986  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.535
+Gamma shape alpha: 0.749
+Parameters optimization took 22 rounds (8.663 sec)
+BEST SCORE FOUND : -72892.140
+Creating bootstrap support values...
+Split supports printed to NEXUS file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex
+Total tree length: 0.649
+
+Total number of iterations: 117
+CPU time used for tree search: 9981.777 sec (2h:46m:21s)
+Wall-clock time used for tree search: 696.245 sec (0h:11m:36s)
+Total CPU time used: 10590.842 sec (2h:56m:30s)
+Total wall-clock time used: 739.641 sec (0h:12m:19s)
+
+Computing bootstrap consensus tree...
+Reading input file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex...
+389 taxa and 6204 splits.
+Consensus tree written to NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Reading input trees file NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Log-likelihood of consensus tree: -72902.204
+
+---> START RUN NUMBER 5 (seed: 362173)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.476 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 362173)...
+
+NOTE: 214 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -79065.805
+2. Current log-likelihood: -72984.215
+3. Current log-likelihood: -72954.449
+4. Current log-likelihood: -72952.819
+5. Current log-likelihood: -72951.243
+6. Current log-likelihood: -72949.831
+7. Current log-likelihood: -72948.284
+8. Current log-likelihood: -72946.956
+9. Current log-likelihood: -72945.512
+10. Current log-likelihood: -72944.263
+11. Current log-likelihood: -72942.930
+12. Current log-likelihood: -72941.664
+13. Current log-likelihood: -72940.559
+14. Current log-likelihood: -72939.353
+15. Current log-likelihood: -72938.324
+16. Current log-likelihood: -72937.231
+17. Current log-likelihood: -72936.277
+18. Current log-likelihood: -72935.268
+19. Current log-likelihood: -72934.410
+20. Current log-likelihood: -72933.477
+21. Current log-likelihood: -72932.698
+22. Current log-likelihood: -72931.946
+23. Current log-likelihood: -72931.122
+24. Current log-likelihood: -72930.458
+25. Current log-likelihood: -72929.812
+26. Current log-likelihood: -72929.190
+27. Current log-likelihood: -72928.600
+28. Current log-likelihood: -72928.050
+29. Current log-likelihood: -72927.517
+30. Current log-likelihood: -72927.025
+31. Current log-likelihood: -72926.559
+32. Current log-likelihood: -72926.119
+33. Current log-likelihood: -72925.705
+34. Current log-likelihood: -72925.326
+35. Current log-likelihood: -72924.967
+36. Current log-likelihood: -72924.626
+37. Current log-likelihood: -72924.307
+38. Current log-likelihood: -72924.016
+39. Current log-likelihood: -72923.743
+40. Current log-likelihood: -72923.484
+41. Current log-likelihood: -72923.245
+42. Current log-likelihood: -72923.026
+43. Current log-likelihood: -72922.822
+44. Current log-likelihood: -72922.631
+45. Current log-likelihood: -72922.456
+46. Current log-likelihood: -72922.294
+47. Current log-likelihood: -72922.145
+48. Current log-likelihood: -72922.012
+49. Current log-likelihood: -72921.877
+50. Current log-likelihood: -72921.761
+51. Current log-likelihood: -72921.654
+Optimal log-likelihood: -72921.538
+Rate parameters:  A-C: 2.05811  A-G: 28.65381  A-T: 2.05811  C-G: 1.00000  C-T: 23.68793  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.519
+Gamma shape alpha: 0.691
+Parameters optimization took 51 rounds (28.119 sec)
+Computing ML distances based on estimated model parameters... 33.296 sec
+Computing BIONJ tree...
+0.768 seconds
+Log-likelihood of BIONJ tree: -73195.962
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 61.779 second
+Computing log-likelihood of 98 initial trees ... 15.023 seconds
+Current best score: -72918.660
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -72892.925
+Iteration 10 / LogL: -72894.059 / Time: 0h:2m:58s
+Iteration 20 / LogL: -72893.034 / Time: 0h:4m:10s
+Finish initializing candidate tree set (20)
+Current best tree score: -72892.925 / CPU time: 215.339
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -72899.468 / Time: 0h:5m:9s (0h:12m:32s left)
+Iteration 40 / LogL: -73044.813 / Time: 0h:6m:31s (0h:10m:7s left)
+Iteration 50 / LogL: -72945.063 / Time: 0h:7m:33s (0h:7m:49s left)
+Log-likelihood cutoff on original alignment: -72940.586
+Iteration 60 / LogL: -72934.089 / Time: 0h:8m:35s (0h:5m:56s left)
+Iteration 70 / LogL: -72897.912 / Time: 0h:9m:33s (0h:4m:16s left)
+Iteration 80 / LogL: -72893.350 / Time: 0h:10m:43s (0h:2m:50s left)
+Iteration 90 / LogL: -72900.778 / Time: 0h:11m:43s (0h:1m:26s left)
+Iteration 100 / LogL: -72894.675 / Time: 0h:12m:44s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -72940.586
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:13m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -72892.925
+2. Current log-likelihood: -72892.855
+3. Current log-likelihood: -72892.793
+4. Current log-likelihood: -72892.709
+5. Current log-likelihood: -72892.649
+6. Current log-likelihood: -72892.582
+7. Current log-likelihood: -72892.533
+8. Current log-likelihood: -72892.475
+9. Current log-likelihood: -72892.432
+10. Current log-likelihood: -72892.392
+11. Current log-likelihood: -72892.356
+12. Current log-likelihood: -72892.312
+13. Current log-likelihood: -72892.283
+14. Current log-likelihood: -72892.254
+15. Current log-likelihood: -72892.229
+16. Current log-likelihood: -72892.206
+17. Current log-likelihood: -72892.186
+18. Current log-likelihood: -72892.167
+19. Current log-likelihood: -72892.150
+20. Current log-likelihood: -72892.135
+21. Current log-likelihood: -72892.121
+22. Current log-likelihood: -72892.108
+23. Current log-likelihood: -72892.095
+24. Current log-likelihood: -72892.082
+Optimal log-likelihood: -72892.070
+Rate parameters:  A-C: 2.05711  A-G: 28.64985  A-T: 2.05711  C-G: 1.00000  C-T: 23.72063  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.535
+Gamma shape alpha: 0.748
+Parameters optimization took 24 rounds (13.984 sec)
+BEST SCORE FOUND : -72892.070
+Creating bootstrap support values...
+Split supports printed to NEXUS file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex
+Total tree length: 0.649
+
+Total number of iterations: 102
+CPU time used for tree search: 10579.660 sec (2h:56m:19s)
+Wall-clock time used for tree search: 744.781 sec (0h:12m:24s)
+Total CPU time used: 11306.134 sec (3h:8m:26s)
+Total wall-clock time used: 797.080 sec (0h:13m:17s)
+
+Computing bootstrap consensus tree...
+Reading input file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex...
+389 taxa and 6102 splits.
+Consensus tree written to NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Reading input trees file NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Log-likelihood of consensus tree: -72902.293
+
+---> START RUN NUMBER 6 (seed: 363173)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.481 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 363173)...
+
+NOTE: 214 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -79056.407
+2. Current log-likelihood: -72979.040
+3. Current log-likelihood: -72949.508
+4. Current log-likelihood: -72947.891
+5. Current log-likelihood: -72946.277
+6. Current log-likelihood: -72944.859
+7. Current log-likelihood: -72943.341
+8. Current log-likelihood: -72941.813
+9. Current log-likelihood: -72940.523
+10. Current log-likelihood: -72939.138
+11. Current log-likelihood: -72937.933
+12. Current log-likelihood: -72936.647
+13. Current log-likelihood: -72935.532
+14. Current log-likelihood: -72934.347
+15. Current log-likelihood: -72933.312
+16. Current log-likelihood: -72932.213
+17. Current log-likelihood: -72931.277
+18. Current log-likelihood: -72930.258
+19. Current log-likelihood: -72929.398
+20. Current log-likelihood: -72928.479
+21. Current log-likelihood: -72927.695
+22. Current log-likelihood: -72926.860
+23. Current log-likelihood: -72926.154
+24. Current log-likelihood: -72925.471
+25. Current log-likelihood: -72924.817
+26. Current log-likelihood: -72924.122
+27. Current log-likelihood: -72923.552
+28. Current log-likelihood: -72923.008
+29. Current log-likelihood: -72922.483
+30. Current log-likelihood: -72921.989
+31. Current log-likelihood: -72921.524
+32. Current log-likelihood: -72921.086
+33. Current log-likelihood: -72920.673
+34. Current log-likelihood: -72920.291
+35. Current log-likelihood: -72919.933
+36. Current log-likelihood: -72919.595
+37. Current log-likelihood: -72919.276
+38. Current log-likelihood: -72918.982
+39. Current log-likelihood: -72918.710
+40. Current log-likelihood: -72918.453
+41. Current log-likelihood: -72918.213
+42. Current log-likelihood: -72917.992
+43. Current log-likelihood: -72917.788
+44. Current log-likelihood: -72917.600
+45. Current log-likelihood: -72917.420
+46. Current log-likelihood: -72917.261
+47. Current log-likelihood: -72917.110
+48. Current log-likelihood: -72916.974
+49. Current log-likelihood: -72916.844
+50. Current log-likelihood: -72916.725
+51. Current log-likelihood: -72916.616
+Optimal log-likelihood: -72916.500
+Rate parameters:  A-C: 2.02763  A-G: 28.25104  A-T: 2.02763  C-G: 1.00000  C-T: 23.33755  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.519
+Gamma shape alpha: 0.691
+Parameters optimization took 51 rounds (29.616 sec)
+Computing ML distances based on estimated model parameters... 33.449 sec
+Computing BIONJ tree...
+0.521 seconds
+Log-likelihood of BIONJ tree: -73195.996
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 60.943 second
+Computing log-likelihood of 98 initial trees ... 17.277 seconds
+Current best score: -72916.500
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -72904.677
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -72892.851
+Iteration 10 / LogL: -72893.986 / Time: 0h:3m:3s
+Iteration 20 / LogL: -72892.949 / Time: 0h:4m:21s
+Finish initializing candidate tree set (20)
+Current best tree score: -72892.851 / CPU time: 226.092
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -72904.074 / Time: 0h:5m:25s (0h:13m:24s left)
+Iteration 40 / LogL: -72896.531 / Time: 0h:6m:30s (0h:10m:17s left)
+Iteration 50 / LogL: -73035.606 / Time: 0h:8m:5s (0h:8m:33s left)
+Log-likelihood cutoff on original alignment: -72940.452
+Iteration 60 / LogL: -72894.466 / Time: 0h:9m:15s (0h:6m:34s left)
+Iteration 70 / LogL: -73049.687 / Time: 0h:10m:17s (0h:4m:45s left)
+Iteration 80 / LogL: -72991.818 / Time: 0h:11m:26s (0h:3m:10s left)
+Iteration 90 / LogL: -72893.479 / Time: 0h:12m:29s (0h:1m:40s left)
+Iteration 100 / LogL: -72939.748 / Time: 0h:13m:30s (0h:0m:16s left)
+Log-likelihood cutoff on original alignment: -72940.452
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:13m:51s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -72892.851
+2. Current log-likelihood: -72892.791
+3. Current log-likelihood: -72892.732
+4. Current log-likelihood: -72892.673
+5. Current log-likelihood: -72892.613
+6. Current log-likelihood: -72892.566
+7. Current log-likelihood: -72892.524
+8. Current log-likelihood: -72892.476
+9. Current log-likelihood: -72892.442
+10. Current log-likelihood: -72892.407
+11. Current log-likelihood: -72892.375
+12. Current log-likelihood: -72892.346
+13. Current log-likelihood: -72892.321
+14. Current log-likelihood: -72892.295
+15. Current log-likelihood: -72892.273
+16. Current log-likelihood: -72892.252
+17. Current log-likelihood: -72892.236
+18. Current log-likelihood: -72892.219
+19. Current log-likelihood: -72892.205
+20. Current log-likelihood: -72892.191
+21. Current log-likelihood: -72892.179
+22. Current log-likelihood: -72892.168
+Optimal log-likelihood: -72892.156
+Rate parameters:  A-C: 2.02762  A-G: 28.25377  A-T: 2.02762  C-G: 1.00000  C-T: 23.38883  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.535
+Gamma shape alpha: 0.748
+Parameters optimization took 22 rounds (12.154 sec)
+BEST SCORE FOUND : -72892.156
+Creating bootstrap support values...
+Split supports printed to NEXUS file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex
+Total tree length: 0.649
+
+Total number of iterations: 103
+CPU time used for tree search: 11304.784 sec (3h:8m:24s)
+Wall-clock time used for tree search: 795.992 sec (0h:13m:15s)
+Total CPU time used: 12025.843 sec (3h:20m:25s)
+Total wall-clock time used: 846.838 sec (0h:14m:6s)
+
+Computing bootstrap consensus tree...
+Reading input file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex...
+389 taxa and 6310 splits.
+Consensus tree written to NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Reading input trees file NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Log-likelihood of consensus tree: -72902.413
+
+---> START RUN NUMBER 7 (seed: 364173)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.466 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 364173)...
+
+NOTE: 214 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -79045.914
+2. Current log-likelihood: -72968.802
+3. Current log-likelihood: -72939.302
+4. Current log-likelihood: -72937.667
+5. Current log-likelihood: -72936.085
+6. Current log-likelihood: -72934.667
+7. Current log-likelihood: -72933.115
+8. Current log-likelihood: -72931.782
+9. Current log-likelihood: -72930.333
+10. Current log-likelihood: -72929.082
+11. Current log-likelihood: -72927.746
+12. Current log-likelihood: -72926.478
+13. Current log-likelihood: -72925.358
+14. Current log-likelihood: -72924.150
+15. Current log-likelihood: -72923.126
+16. Current log-likelihood: -72922.009
+17. Current log-likelihood: -72921.061
+18. Current log-likelihood: -72920.037
+19. Current log-likelihood: -72919.182
+20. Current log-likelihood: -72918.237
+21. Current log-likelihood: -72917.462
+22. Current log-likelihood: -72916.614
+23. Current log-likelihood: -72915.906
+24. Current log-likelihood: -72915.220
+25. Current log-likelihood: -72914.488
+26. Current log-likelihood: -72913.883
+27. Current log-likelihood: -72913.305
+28. Current log-likelihood: -72912.750
+29. Current log-likelihood: -72912.222
+30. Current log-likelihood: -72911.730
+31. Current log-likelihood: -72911.262
+32. Current log-likelihood: -72910.822
+33. Current log-likelihood: -72910.412
+34. Current log-likelihood: -72910.029
+35. Current log-likelihood: -72909.670
+36. Current log-likelihood: -72909.332
+37. Current log-likelihood: -72909.017
+38. Current log-likelihood: -72908.722
+39. Current log-likelihood: -72908.450
+40. Current log-likelihood: -72908.193
+41. Current log-likelihood: -72907.957
+42. Current log-likelihood: -72907.735
+43. Current log-likelihood: -72907.532
+44. Current log-likelihood: -72907.343
+45. Current log-likelihood: -72907.170
+46. Current log-likelihood: -72907.009
+47. Current log-likelihood: -72906.859
+48. Current log-likelihood: -72906.724
+49. Current log-likelihood: -72906.593
+50. Current log-likelihood: -72906.478
+51. Current log-likelihood: -72906.372
+52. Current log-likelihood: -72906.272
+Optimal log-likelihood: -72906.167
+Rate parameters:  A-C: 2.05571  A-G: 28.57060  A-T: 2.05571  C-G: 1.00000  C-T: 23.68316  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.520
+Gamma shape alpha: 0.695
+Parameters optimization took 52 rounds (31.806 sec)
+Computing ML distances based on estimated model parameters... 32.921 sec
+Computing BIONJ tree...
+0.561 seconds
+Log-likelihood of BIONJ tree: -73195.768
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 59.705 second
+Computing log-likelihood of 98 initial trees ... 17.148 seconds
+Current best score: -72906.167
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -72891.920
+Iteration 10 / LogL: -72894.981 / Time: 0h:3m:1s
+Iteration 20 / LogL: -72892.847 / Time: 0h:4m:8s
+Finish initializing candidate tree set (20)
+Current best tree score: -72891.920 / CPU time: 211.206
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -72896.521 / Time: 0h:5m:8s (0h:12m:30s left)
+Iteration 40 / LogL: -72893.434 / Time: 0h:6m:8s (0h:9m:33s left)
+Iteration 50 / LogL: -72893.367 / Time: 0h:7m:20s (0h:7m:36s left)
+Log-likelihood cutoff on original alignment: -72938.217
+Iteration 60 / LogL: -72896.463 / Time: 0h:8m:37s (0h:5m:58s left)
+Iteration 70 / LogL: -72941.949 / Time: 0h:9m:43s (0h:4m:21s left)
+Iteration 80 / LogL: -72894.413 / Time: 0h:10m:40s (0h:2m:49s left)
+Iteration 90 / LogL: -72894.601 / Time: 0h:11m:41s (0h:1m:26s left)
+Iteration 100 / LogL: -72894.309 / Time: 0h:12m:43s (0h:0m:7s left)
+Log-likelihood cutoff on original alignment: -72938.217
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:12m:59s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -72891.920
+2. Current log-likelihood: -72891.888
+3. Current log-likelihood: -72891.868
+4. Current log-likelihood: -72891.856
+Optimal log-likelihood: -72891.848
+Rate parameters:  A-C: 2.05664  A-G: 28.57303  A-T: 2.05664  C-G: 1.00000  C-T: 23.68639  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.524
+Gamma shape alpha: 0.711
+Parameters optimization took 4 rounds (2.886 sec)
+BEST SCORE FOUND : -72891.848
+Creating bootstrap support values...
+Split supports printed to NEXUS file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex
+Total tree length: 0.646
+
+Total number of iterations: 102
+CPU time used for tree search: 10533.493 sec (2h:55m:33s)
+Wall-clock time used for tree search: 740.973 sec (0h:12m:20s)
+Total CPU time used: 11142.892 sec (3h:5m:42s)
+Total wall-clock time used: 784.798 sec (0h:13m:4s)
+
+Computing bootstrap consensus tree...
+Reading input file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex...
+389 taxa and 6290 splits.
+Consensus tree written to NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Reading input trees file NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Log-likelihood of consensus tree: -72902.758
+
+---> START RUN NUMBER 8 (seed: 365173)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.495 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 365173)...
+
+NOTE: 214 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -79071.390
+2. Current log-likelihood: -72996.368
+3. Current log-likelihood: -72966.747
+4. Current log-likelihood: -72965.112
+5. Current log-likelihood: -72963.630
+6. Current log-likelihood: -72962.048
+7. Current log-likelihood: -72960.542
+8. Current log-likelihood: -72959.211
+9. Current log-likelihood: -72957.750
+10. Current log-likelihood: -72956.500
+11. Current log-likelihood: -72955.143
+12. Current log-likelihood: -72953.982
+13. Current log-likelihood: -72952.716
+14. Current log-likelihood: -72951.642
+15. Current log-likelihood: -72950.472
+16. Current log-likelihood: -72949.494
+17. Current log-likelihood: -72948.409
+18. Current log-likelihood: -72947.511
+19. Current log-likelihood: -72946.527
+20. Current log-likelihood: -72945.706
+21. Current log-likelihood: -72944.813
+22. Current log-likelihood: -72944.070
+23. Current log-likelihood: -72943.259
+24. Current log-likelihood: -72942.593
+25. Current log-likelihood: -72941.936
+26. Current log-likelihood: -72941.316
+27. Current log-likelihood: -72940.723
+28. Current log-likelihood: -72940.165
+29. Current log-likelihood: -72939.634
+30. Current log-likelihood: -72939.141
+31. Current log-likelihood: -72938.667
+32. Current log-likelihood: -72938.229
+33. Current log-likelihood: -72937.813
+34. Current log-likelihood: -72937.428
+35. Current log-likelihood: -72937.064
+36. Current log-likelihood: -72936.729
+37. Current log-likelihood: -72936.410
+38. Current log-likelihood: -72936.114
+39. Current log-likelihood: -72935.837
+40. Current log-likelihood: -72935.583
+41. Current log-likelihood: -72935.343
+42. Current log-likelihood: -72935.120
+43. Current log-likelihood: -72934.914
+44. Current log-likelihood: -72934.726
+45. Current log-likelihood: -72934.551
+46. Current log-likelihood: -72934.391
+47. Current log-likelihood: -72934.237
+48. Current log-likelihood: -72934.101
+49. Current log-likelihood: -72933.971
+50. Current log-likelihood: -72933.854
+51. Current log-likelihood: -72933.749
+52. Current log-likelihood: -72933.646
+Optimal log-likelihood: -72933.539
+Rate parameters:  A-C: 2.02775  A-G: 28.12875  A-T: 2.02775  C-G: 1.00000  C-T: 23.25564  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.520
+Gamma shape alpha: 0.695
+Parameters optimization took 52 rounds (34.665 sec)
+Computing ML distances based on estimated model parameters... 33.406 sec
+Computing BIONJ tree...
+0.544 seconds
+Log-likelihood of BIONJ tree: -73195.880
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 61.776 second
+Computing log-likelihood of 98 initial trees ... 16.585 seconds
+Current best score: -72918.705
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -72892.916
+Iteration 10 / LogL: -72894.338 / Time: 0h:3m:28s
+Iteration 20 / LogL: -72892.981 / Time: 0h:4m:40s
+Finish initializing candidate tree set (20)
+Current best tree score: -72892.916 / CPU time: 239.354
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -72893.350 / Time: 0h:5m:40s (0h:13m:48s left)
+Iteration 40 / LogL: -72904.812 / Time: 0h:6m:55s (0h:10m:46s left)
+Iteration 50 / LogL: -72896.763 / Time: 0h:8m:2s (0h:8m:20s left)
+Log-likelihood cutoff on original alignment: -72940.055
+Iteration 60 / LogL: -72898.760 / Time: 0h:9m:14s (0h:6m:23s left)
+Iteration 70 / LogL: -72897.866 / Time: 0h:10m:20s (0h:4m:38s left)
+Iteration 80 / LogL: -72999.259 / Time: 0h:11m:25s (0h:3m:1s left)
+Iteration 90 / LogL: -72936.422 / Time: 0h:12m:38s (0h:1m:33s left)
+Iteration 100 / LogL: -72907.459 / Time: 0h:13m:59s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -72940.055
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:14m:16s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -72892.916
+2. Current log-likelihood: -72892.850
+3. Current log-likelihood: -72892.813
+4. Current log-likelihood: -72892.729
+5. Current log-likelihood: -72892.675
+6. Current log-likelihood: -72892.622
+7. Current log-likelihood: -72892.567
+8. Current log-likelihood: -72892.525
+9. Current log-likelihood: -72892.485
+10. Current log-likelihood: -72892.439
+11. Current log-likelihood: -72892.407
+12. Current log-likelihood: -72892.377
+13. Current log-likelihood: -72892.347
+14. Current log-likelihood: -72892.321
+15. Current log-likelihood: -72892.299
+16. Current log-likelihood: -72892.276
+17. Current log-likelihood: -72892.256
+18. Current log-likelihood: -72892.238
+19. Current log-likelihood: -72892.224
+20. Current log-likelihood: -72892.210
+21. Current log-likelihood: -72892.196
+22. Current log-likelihood: -72892.184
+Optimal log-likelihood: -72892.172
+Rate parameters:  A-C: 2.01958  A-G: 28.13736  A-T: 2.01958  C-G: 1.00000  C-T: 23.30224  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.535
+Gamma shape alpha: 0.747
+Parameters optimization took 22 rounds (14.283 sec)
+BEST SCORE FOUND : -72892.172
+Creating bootstrap support values...
+Split supports printed to NEXUS file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex
+Total tree length: 0.649
+
+Total number of iterations: 102
+CPU time used for tree search: 11541.875 sec (3h:12m:21s)
+Wall-clock time used for tree search: 814.210 sec (0h:13m:34s)
+Total CPU time used: 12373.502 sec (3h:26m:13s)
+Total wall-clock time used: 873.612 sec (0h:14m:33s)
+
+Computing bootstrap consensus tree...
+Reading input file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex...
+389 taxa and 6163 splits.
+Consensus tree written to NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Reading input trees file NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Log-likelihood of consensus tree: -72902.350
+
+---> START RUN NUMBER 9 (seed: 366173)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.583 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 366173)...
+
+NOTE: 214 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -79074.927
+2. Current log-likelihood: -73000.121
+3. Current log-likelihood: -72970.745
+4. Current log-likelihood: -72969.114
+5. Current log-likelihood: -72967.638
+6. Current log-likelihood: -72966.060
+7. Current log-likelihood: -72964.559
+8. Current log-likelihood: -72963.232
+9. Current log-likelihood: -72961.775
+10. Current log-likelihood: -72960.530
+11. Current log-likelihood: -72959.176
+12. Current log-likelihood: -72958.018
+13. Current log-likelihood: -72956.767
+14. Current log-likelihood: -72955.693
+15. Current log-likelihood: -72954.526
+16. Current log-likelihood: -72953.551
+17. Current log-likelihood: -72952.468
+18. Current log-likelihood: -72951.572
+19. Current log-likelihood: -72950.589
+20. Current log-likelihood: -72949.770
+21. Current log-likelihood: -72948.879
+22. Current log-likelihood: -72948.137
+23. Current log-likelihood: -72947.326
+24. Current log-likelihood: -72946.663
+25. Current log-likelihood: -72946.005
+26. Current log-likelihood: -72945.387
+27. Current log-likelihood: -72944.794
+28. Current log-likelihood: -72944.237
+29. Current log-likelihood: -72943.705
+30. Current log-likelihood: -72943.212
+31. Current log-likelihood: -72942.738
+32. Current log-likelihood: -72942.300
+33. Current log-likelihood: -72941.884
+34. Current log-likelihood: -72941.499
+35. Current log-likelihood: -72941.135
+36. Current log-likelihood: -72940.799
+37. Current log-likelihood: -72940.480
+38. Current log-likelihood: -72940.183
+39. Current log-likelihood: -72939.906
+40. Current log-likelihood: -72939.651
+41. Current log-likelihood: -72939.411
+42. Current log-likelihood: -72939.188
+43. Current log-likelihood: -72938.981
+44. Current log-likelihood: -72938.792
+45. Current log-likelihood: -72938.617
+46. Current log-likelihood: -72938.456
+47. Current log-likelihood: -72938.302
+48. Current log-likelihood: -72938.166
+49. Current log-likelihood: -72938.034
+50. Current log-likelihood: -72937.917
+51. Current log-likelihood: -72937.811
+52. Current log-likelihood: -72937.709
+Optimal log-likelihood: -72937.601
+Rate parameters:  A-C: 2.02835  A-G: 28.13547  A-T: 2.02835  C-G: 1.00000  C-T: 23.26673  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.520
+Gamma shape alpha: 0.695
+Parameters optimization took 52 rounds (30.761 sec)
+Computing ML distances based on estimated model parameters... 33.130 sec
+Computing BIONJ tree...
+0.523 seconds
+Log-likelihood of BIONJ tree: -73195.861
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 61.496 second
+Computing log-likelihood of 98 initial trees ... 18.025 seconds
+Current best score: -72918.705
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -72892.936
+Iteration 10 / LogL: -72893.021 / Time: 0h:3m:20s
+Iteration 20 / LogL: -72894.407 / Time: 0h:4m:48s
+Finish initializing candidate tree set (20)
+Current best tree score: -72892.936 / CPU time: 251.432
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -72927.950 / Time: 0h:6m:0s (0h:14m:38s left)
+Iteration 40 / LogL: -72939.738 / Time: 0h:7m:5s (0h:11m:2s left)
+Iteration 50 / LogL: -72900.774 / Time: 0h:8m:11s (0h:8m:29s left)
+Log-likelihood cutoff on original alignment: -72952.490
+Iteration 60 / LogL: -72893.619 / Time: 0h:9m:30s (0h:6m:35s left)
+Iteration 70 / LogL: -72945.557 / Time: 0h:10m:32s (0h:4m:43s left)
+Iteration 80 / LogL: -72952.990 / Time: 0h:11m:36s (0h:3m:4s left)
+Iteration 90 / LogL: -73717.557 / Time: 0h:12m:38s (0h:1m:33s left)
+Iteration 100 / LogL: -72893.395 / Time: 0h:13m:47s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -72952.490
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:14m:5s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -72892.936
+2. Current log-likelihood: -72892.870
+3. Current log-likelihood: -72892.815
+4. Current log-likelihood: -72892.736
+5. Current log-likelihood: -72892.682
+6. Current log-likelihood: -72892.621
+7. Current log-likelihood: -72892.577
+8. Current log-likelihood: -72892.532
+9. Current log-likelihood: -72892.493
+10. Current log-likelihood: -72892.447
+11. Current log-likelihood: -72892.416
+12. Current log-likelihood: -72892.384
+13. Current log-likelihood: -72892.358
+14. Current log-likelihood: -72892.330
+15. Current log-likelihood: -72892.307
+16. Current log-likelihood: -72892.284
+17. Current log-likelihood: -72892.265
+18. Current log-likelihood: -72892.248
+19. Current log-likelihood: -72892.233
+20. Current log-likelihood: -72892.219
+21. Current log-likelihood: -72892.206
+22. Current log-likelihood: -72892.195
+23. Current log-likelihood: -72892.184
+Optimal log-likelihood: -72892.172
+Rate parameters:  A-C: 2.02228  A-G: 28.14571  A-T: 2.02228  C-G: 1.00000  C-T: 23.31330  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.535
+Gamma shape alpha: 0.748
+Parameters optimization took 23 rounds (13.903 sec)
+BEST SCORE FOUND : -72892.172
+Creating bootstrap support values...
+Split supports printed to NEXUS file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex
+Total tree length: 0.649
+
+Total number of iterations: 102
+CPU time used for tree search: 11443.346 sec (3h:10m:43s)
+Wall-clock time used for tree search: 808.449 sec (0h:13m:28s)
+Total CPU time used: 12203.579 sec (3h:23m:23s)
+Total wall-clock time used: 862.455 sec (0h:14m:22s)
+
+Computing bootstrap consensus tree...
+Reading input file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex...
+389 taxa and 6095 splits.
+Consensus tree written to NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Reading input trees file NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Log-likelihood of consensus tree: -72902.306
+
+---> START RUN NUMBER 10 (seed: 367173)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.574 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 367173)...
+
+NOTE: 214 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -79058.419
+2. Current log-likelihood: -72980.894
+3. Current log-likelihood: -72951.674
+4. Current log-likelihood: -72950.053
+5. Current log-likelihood: -72948.480
+6. Current log-likelihood: -72947.073
+7. Current log-likelihood: -72945.529
+8. Current log-likelihood: -72944.205
+9. Current log-likelihood: -72942.763
+10. Current log-likelihood: -72941.525
+11. Current log-likelihood: -72940.177
+12. Current log-likelihood: -72939.027
+13. Current log-likelihood: -72937.769
+14. Current log-likelihood: -72936.715
+15. Current log-likelihood: -72935.535
+16. Current log-likelihood: -72934.564
+17. Current log-likelihood: -72933.496
+18. Current log-likelihood: -72932.603
+19. Current log-likelihood: -72931.634
+20. Current log-likelihood: -72930.814
+21. Current log-likelihood: -72929.928
+22. Current log-likelihood: -72929.195
+23. Current log-likelihood: -72928.382
+24. Current log-likelihood: -72927.722
+25. Current log-likelihood: -72927.074
+26. Current log-likelihood: -72926.453
+27. Current log-likelihood: -72925.863
+28. Current log-likelihood: -72925.312
+29. Current log-likelihood: -72924.779
+30. Current log-likelihood: -72924.288
+31. Current log-likelihood: -72923.820
+32. Current log-likelihood: -72923.380
+33. Current log-likelihood: -72922.965
+34. Current log-likelihood: -72922.584
+35. Current log-likelihood: -72922.224
+36. Current log-likelihood: -72921.882
+37. Current log-likelihood: -72921.564
+38. Current log-likelihood: -72921.271
+39. Current log-likelihood: -72920.996
+40. Current log-likelihood: -72920.737
+41. Current log-likelihood: -72920.496
+42. Current log-likelihood: -72920.276
+43. Current log-likelihood: -72920.071
+44. Current log-likelihood: -72919.879
+45. Current log-likelihood: -72919.703
+46. Current log-likelihood: -72919.540
+47. Current log-likelihood: -72919.389
+48. Current log-likelihood: -72919.255
+49. Current log-likelihood: -72919.120
+50. Current log-likelihood: -72919.002
+51. Current log-likelihood: -72918.895
+52. Current log-likelihood: -72918.795
+Optimal log-likelihood: -72918.688
+Rate parameters:  A-C: 2.01902  A-G: 28.07452  A-T: 2.01902  C-G: 1.00000  C-T: 23.22834  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.520
+Gamma shape alpha: 0.694
+Parameters optimization took 52 rounds (34.964 sec)
+Computing ML distances based on estimated model parameters... 33.307 sec
+Computing BIONJ tree...
+0.521 seconds
+Log-likelihood of BIONJ tree: -73195.921
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 59.262 second
+Computing log-likelihood of 98 initial trees ... 16.299 seconds
+Current best score: -72918.677
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -72892.988
+Iteration 10 / LogL: -72893.033 / Time: 0h:3m:14s
+Iteration 20 / LogL: -72895.875 / Time: 0h:4m:52s
+Finish initializing candidate tree set (20)
+Current best tree score: -72892.988 / CPU time: 251.426
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -72896.945 / Time: 0h:5m:57s (0h:14m:30s left)
+Iteration 40 / LogL: -72894.465 / Time: 0h:7m:5s (0h:11m:2s left)
+Iteration 50 / LogL: -72893.397 / Time: 0h:8m:3s (0h:8m:21s left)
+Log-likelihood cutoff on original alignment: -72941.745
+Iteration 60 / LogL: -72894.627 / Time: 0h:9m:13s (0h:6m:23s left)
+Iteration 70 / LogL: -72896.569 / Time: 0h:10m:6s (0h:4m:31s left)
+Iteration 80 / LogL: -72938.742 / Time: 0h:11m:13s (0h:2m:58s left)
+Iteration 90 / LogL: -72902.358 / Time: 0h:12m:23s (0h:1m:31s left)
+Iteration 100 / LogL: -72994.228 / Time: 0h:13m:23s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -72941.745
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:13m:39s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -72892.988
+2. Current log-likelihood: -72892.922
+3. Current log-likelihood: -72892.884
+4. Current log-likelihood: -72892.801
+5. Current log-likelihood: -72892.743
+6. Current log-likelihood: -72892.682
+7. Current log-likelihood: -72892.634
+8. Current log-likelihood: -72892.590
+9. Current log-likelihood: -72892.540
+10. Current log-likelihood: -72892.502
+11. Current log-likelihood: -72892.468
+12. Current log-likelihood: -72892.434
+13. Current log-likelihood: -72892.405
+14. Current log-likelihood: -72892.378
+15. Current log-likelihood: -72892.354
+16. Current log-likelihood: -72892.330
+17. Current log-likelihood: -72892.311
+18. Current log-likelihood: -72892.292
+19. Current log-likelihood: -72892.276
+20. Current log-likelihood: -72892.262
+21. Current log-likelihood: -72892.247
+22. Current log-likelihood: -72892.236
+23. Current log-likelihood: -72892.225
+Optimal log-likelihood: -72892.212
+Rate parameters:  A-C: 2.01852  A-G: 28.08900  A-T: 2.01852  C-G: 1.00000  C-T: 23.27418  G-T: 1.00000
+Base frequencies:  A: 0.280  C: 0.303  G: 0.155  T: 0.262
+Proportion of invariable sites: 0.535
+Gamma shape alpha: 0.748
+Parameters optimization took 23 rounds (11.648 sec)
+BEST SCORE FOUND : -72892.212
+Creating bootstrap support values...
+Split supports printed to NEXUS file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex
+Total tree length: 0.649
+
+Total number of iterations: 102
+CPU time used for tree search: 11020.487 sec (3h:3m:40s)
+Wall-clock time used for tree search: 777.561 sec (0h:12m:57s)
+Total CPU time used: 11811.075 sec (3h:16m:51s)
+Total wall-clock time used: 833.811 sec (0h:13m:53s)
+
+Computing bootstrap consensus tree...
+Reading input file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex...
+389 taxa and 6421 splits.
+Consensus tree written to NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Reading input trees file NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Log-likelihood of consensus tree: -72902.385
+
+---> SUMMARIZE RESULTS FROM 10 RUNS
+
+Run 7 gave best log-likelihood: -72891.848
+Split supports printed to NEXUS file NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex
+Consensus tree written to NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+Total CPU time for 10 runs: 128484.701 seconds.
+Total wall-clock time for 10 runs: 8933.600 seconds.
+
+
+Analysis results written to: 
+  IQ-TREE report:                NoHybridMitoset_longassembly_mars_clean0.5.aln.iqtree
+  Maximum-likelihood tree:       NoHybridMitoset_longassembly_mars_clean0.5.aln.treefile
+  Trees from independent runs:   NoHybridMitoset_longassembly_mars_clean0.5.aln.runtrees
+  Likelihood distances:          NoHybridMitoset_longassembly_mars_clean0.5.aln.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          NoHybridMitoset_longassembly_mars_clean0.5.aln.splits.nex
+  Consensus tree:                NoHybridMitoset_longassembly_mars_clean0.5.aln.contree
+  Screen log file:               NoHybridMitoset_longassembly_mars_clean0.5.aln.log
+
+Date and Time: Mon Mar 15 18:15:36 2021

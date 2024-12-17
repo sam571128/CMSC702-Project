@@ -1,0 +1,20 @@
+IQ-TREE multicore version 2.3.6 for Windows 64-bit built Aug  1 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    LAPTOP-4P7MFEKL (AVX2, FMA3, 15 GB RAM)
+Command: C:\Users\user\Documents\CMSC702-Project\Methods\iqtree-2.3.6-Windows\bin\iqtree2.exe -rf ..\..\Data Sets\Cichlid fishes\Output\Weighted ASTRAL\wastral.nwk ..\..\Data Sets\Cichlid fishes\Output\TreeQMC\TreeQMC.nwk
+Seed:    354016 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Dec 08 19:20:04 2024
+Kernel:  AVX+FMA - 1 threads (20 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 20 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading tree(s) file ..\..\Data Sets\Cichlid fishes\Output\TreeQMC\TreeQMC.nwk ...
+1 tree(s) loaded (1 rooted and 0 unrooted)
+Reading tree(s) file ..\..\Data Sets\Cichlid fishes\Output\Weighted ASTRAL\wastral.nwk ...
+1 tree(s) loaded (1 rooted and 0 unrooted)
+Computing Robinson-Foulds distances between two sets of trees
+Robinson-Foulds distances printed to ..\..\Data Sets\Cichlid fishes\Output\TreeQMC\TreeQMC.nwk.rfdist
+Date and Time: Sun Dec 08 19:20:04 2024

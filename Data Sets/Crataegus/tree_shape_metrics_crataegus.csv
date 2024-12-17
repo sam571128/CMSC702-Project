@@ -1,0 +1,5 @@
+Tree Label,Sackin Index,Number of Leaves,Tree Height,Total Branch Length,Cherry Count
+ASTRAL-Pro3,6.88,25,1.0,1.0,7
+IQ-Tree,6.96,25,1.0381161386,1.3233130404,7
+TreeQMC,4.6,25,7.5,49.0,8
+Weighted_ASTRAL,6.88,25,3.650728000000001,33.329004000000005,7
