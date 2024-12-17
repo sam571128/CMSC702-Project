@@ -10,7 +10,7 @@ import itertools
 sns.set_style("whitegrid")
 
 # List of species
-species_list = ["mzeb", "onil", "salicaceae", "crataegus", "primate"]  # Adjust as needed
+species_list = ["mzeb", "onil", "salicaceae", "crataegus", "primate", "spialia"]  # Adjust as needed
 
 shape_data = []
 comparison_data = []
